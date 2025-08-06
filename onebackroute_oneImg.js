@@ -6,7 +6,15 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
+  { name: "Submit payments return parameters 01", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 02", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 03", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 04", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 05", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 06", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 07", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 08", backRoute: "/submit-payments-return-parameters" },
+  { name: "Submit payments return parameters 09", backRoute: "/submit-payments-return-parameters" },
 ];
 
 const toPascalCase = (str) =>
