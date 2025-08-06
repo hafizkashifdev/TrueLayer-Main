@@ -6,7 +6,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
+  { name: "TrueLayer _ Accounts _ Cards", backRoute: "/cards-get-card" },
 ];
 
 const toPascalCase = (str) =>
