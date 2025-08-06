@@ -5,3 +5,4 @@ export { default as CqcFundamentalStandardsImage } from "./CqcFundamentalStandar
 export { default as img1ScopeOfRegistrationImage } from "./img1ScopeOfRegistrationImage.svg";
 export { default as img2ScopeOfRegistrationImage } from "./img2ScopeOfRegistrationImage.svg";
 export { default as img3ScopeOfRegistrationImage } from "./img3ScopeOfRegistrationImage.svg";
+export { default as CardsGetCardImage } from "./CardsGetCardImage.svg";
