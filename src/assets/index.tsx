@@ -79,3 +79,13 @@ export { default as MerchantAccountsImage5 } from "./MerchantAccountsImage5.svg"
 export { default as MerchantAccountsImage6 } from "./MerchantAccountsImage6.svg";
 export { default as MerchantAccountsImage7 } from "./MerchantAccountsImage7.svg";
 export { default as MerchantAccountsImage8 } from "./MerchantAccountsImage8.svg";
+export { default as MandatesImage1 } from "./MandatesImage1.svg";
+export { default as MandatesImage2 } from "./MandatesImage2.svg";
+export { default as MandatesImage3 } from "./MandatesImage3.svg";
+export { default as MandatesImage4 } from "./MandatesImage4.svg";
+export { default as MandatesImage5 } from "./MandatesImage5.svg";
+export { default as MandatesImage6 } from "./MandatesImage6.svg";
+export { default as MandatesImage7 } from "./MandatesImage7.svg";
+export { default as MandatesImage8 } from "./MandatesImage8.svg";
+export { default as MandatesImage9 } from "./MandatesImage9.svg";
+export { default as MandatesImage10 } from "./MandatesImage10.svg";
