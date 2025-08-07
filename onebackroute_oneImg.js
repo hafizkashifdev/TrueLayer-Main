@@ -6,7 +6,19 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
+  { name: "Create Payment _ Body Params", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Bank Transfer", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Mandate", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Headers", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_201 Payment", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_400 Invalid Parameters", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_401 Unauthenticated", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_403 Forbidden", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_409 Idempotency-Key Concurrency Conflict", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_422  Idempotency-Key Reuse", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_429  Rate Limit Exceeded", backRoute: "/payments-create-payment" },
+  { name: "Create Payment _ Responses_500  Unknown Error", backRoute: "/payments-create-payment" },
 ];
 
 const toPascalCase = (str) =>

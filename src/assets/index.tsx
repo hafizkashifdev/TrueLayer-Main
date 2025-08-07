@@ -248,3 +248,17 @@ export { default as CardsGetCardBalance32HeaderImage } from "./CardsGetCardBalan
 export { default as CardsGetCardBalance33504GatewayTimeoutImage } from "./CardsGetCardBalance33504GatewayTimeoutImage.svg";
 export { default as CardsGetCardBalance34ResponseBodyImage } from "./CardsGetCardBalance34ResponseBodyImage.svg";
 export { default as CardsGetCardBalance35HeaderImage } from "./CardsGetCardBalance35HeaderImage.svg";
+export { default as PaymentsCreatePaymentImage } from "./PaymentsCreatePaymentImage.svg";
+export { default as CreatePaymentBodyParamsImage } from "./CreatePaymentBodyParamsImage.svg";
+export { default as CreatePaymentBankTransferImage } from "./CreatePaymentBankTransferImage.svg";
+export { default as CreatePaymentMandateImage } from "./CreatePaymentMandateImage.svg";
+export { default as CreatePaymentHeadersImage } from "./CreatePaymentHeadersImage.svg";
+export { default as CreatePaymentResponsesImage } from "./CreatePaymentResponsesImage.svg";
+export { default as CreatePaymentResponses201PaymentImage } from "./CreatePaymentResponses201PaymentImage.svg";
+export { default as CreatePaymentResponses400InvalidParametersImage } from "./CreatePaymentResponses400InvalidParametersImage.svg";
+export { default as CreatePaymentResponses401UnauthenticatedImage } from "./CreatePaymentResponses401UnauthenticatedImage.svg";
+export { default as CreatePaymentResponses403ForbiddenImage } from "./CreatePaymentResponses403ForbiddenImage.svg";
+export { default as CreatePaymentResponses409IdempotencyKeyConcurrencyConflictImage } from "./CreatePaymentResponses409IdempotencyKeyConcurrencyConflictImage.svg";
+export { default as CreatePaymentResponses422IdempotencyKeyReuseImage } from "./CreatePaymentResponses422IdempotencyKeyReuseImage.svg";
+export { default as CreatePaymentResponses429RateLimitExceededImage } from "./CreatePaymentResponses429RateLimitExceededImage.svg";
+export { default as CreatePaymentResponses500UnknownErrorImage } from "./CreatePaymentResponses500UnknownErrorImage.svg";
