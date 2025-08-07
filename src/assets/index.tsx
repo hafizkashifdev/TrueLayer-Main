@@ -456,3 +456,16 @@ export { default as SubmitSchemeSelectionResponses404PaymentNotFoundImage } from
 export { default as SubmitSchemeSelectionResponses409ConflictImage } from "./SubmitSchemeSelectionResponses409ConflictImage.svg";
 export { default as SubmitSchemeSelectionResponses422IdempotencyKeyReuseImage } from "./SubmitSchemeSelectionResponses422IdempotencyKeyReuseImage.svg";
 export { default as SubmitSchemeSelectionResponses500UnknownErrorImage } from "./SubmitSchemeSelectionResponses500UnknownErrorImage.svg";
+export { default as PaymentsSubmitProviderSelectionImage } from "./PaymentsSubmitProviderSelectionImage.svg";
+export { default as SubmitProviderSelectionPathParamsImage } from "./SubmitProviderSelectionPathParamsImage.svg";
+export { default as SubmitProviderSelectionBodyParamsImage } from "./SubmitProviderSelectionBodyParamsImage.svg";
+export { default as SubmitProviderSelectionHeadersImage } from "./SubmitProviderSelectionHeadersImage.svg";
+export { default as SubmitProviderSelectionResponsesImage } from "./SubmitProviderSelectionResponsesImage.svg";
+export { default as SubmitProviderSelectionResponses200PaymentImage } from "./SubmitProviderSelectionResponses200PaymentImage.svg";
+export { default as SubmitProviderSelectionResponses400InvalidRequestImage } from "./SubmitProviderSelectionResponses400InvalidRequestImage.svg";
+export { default as SubmitProviderSelectionResponses401UnauthenticatedImage } from "./SubmitProviderSelectionResponses401UnauthenticatedImage.svg";
+export { default as SubmitProviderSelectionResponses403ForbiddenImage } from "./SubmitProviderSelectionResponses403ForbiddenImage.svg";
+export { default as SubmitProviderSelectionResponses404PaymentNotFoundImage } from "./SubmitProviderSelectionResponses404PaymentNotFoundImage.svg";
+export { default as SubmitProviderSelectionResponses409ConflictImage } from "./SubmitProviderSelectionResponses409ConflictImage.svg";
+export { default as SubmitProviderSelectionResponses422IdempotencyKeyReuseImage } from "./SubmitProviderSelectionResponses422IdempotencyKeyReuseImage.svg";
+export { default as SubmitProviderSelectionResponses500UnknownErrorImage } from "./SubmitProviderSelectionResponses500UnknownErrorImage.svg";

@@ -111,6 +111,15 @@ const areas = [
     y: 4535.86,
     width: 351.44,
     height: 57.13
+  },
+  {
+    id: 13,
+    title: 'POST',
+    href: '/https://api.truelayer-sandbox.com/v3/payments/{id}/authorization-flow/actions/scheme-selection',
+    x: 1282.85,
+    y: 25.97,
+    width: 432.81,
+    height: 38.09
   }
 ];
 
