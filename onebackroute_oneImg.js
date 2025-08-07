@@ -6,19 +6,19 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Submit consent_ Path  Params", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent_ Body  Params", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent_ Headers", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent _Responses", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent_ Responses_200 Payment", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent _ Responses_400 Invalid Request", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent_ Responses_401 Unauthenticated", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent _ Responses_403 Forbidden", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent _ Responses 404 Payment Not Found", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent_ Responses 409  Conflict", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent _ Responses_422 Idempotency-Key Reuse", backRoute: "/payments-submit-consent" },
-  { name: "Submit consent _ Responses_500  Unknown Error", backRoute: "/payments-submit-consent" },
-];
+  { name: "Submit scheme selection_ Path  Params", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Body  Params", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Headers", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_Responses", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses_200 Payment", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses_400 Invalid Request", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses_401 Unauthenticated", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses_403 Forbidden", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses 404 Payment Not Found", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses 409  Conflict", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses_422 Idempotency-Key Reuse", backRoute: "/payments-submit-scheme-selection" },
+  { name: "Submit scheme selection_ Responses_500  Unknown Error", backRoute: "/payments-submit-scheme-selection" },
+]
 
 const toPascalCase = (str) =>
   str
