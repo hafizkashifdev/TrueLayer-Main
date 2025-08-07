@@ -6,32 +6,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "get data in batch 2", backRoute: "/ batch" },
-  { name: "response 2.1", backRoute: "/ batch" },
-  { name: "ok 200 2.1.1", backRoute: "/ batch" },
-  { name: "response body 2.1.1.1", backRoute: "/ batch" },
-  { name: "results 2.1.1.1.3", backRoute: "/ batch" },
-  { name: "transactions 2.1.1.1.3.1.1", backRoute: "/ batch" },
-  { name: "pending transactions 2.1.1.1.3.1.2", backRoute: "/ batch" },
-  { name: "header 1.3.1.2", backRoute: "/ batch" },
-  { name: "unauthorized 401 2.1.2", backRoute: "/ batch" },
-  { name: "response body 2.1.2.1", backRoute: "/ batch" },
-  { name: "header 2.1.2.2", backRoute: "/ batch" },
-  { name: "access denied 403 2.1.3", backRoute: "/ batch" },
-  { name: "response body 2.1.3.1", backRoute: "/ batch" },
-  { name: "header 2.1.3.2", backRoute: "/ batch" },
-  { name: "not found 404 2.1.4", backRoute: "/ batch" },
-  { name: "response body 2.1.4.1", backRoute: "/ batch" },
-  { name: "header 2.1.4.2", backRoute: "/ batch" },
-  { name: "internal server error 500 2.1.5", backRoute: "/ batch" },
-  { name: "response body 2.1.5.1", backRoute: "/ batch" },
-  { name: "header 2.1.5.2", backRoute: "/ batch" },
-  { name: "service unavailable 503 2.1.6", backRoute: "/ batch" },
-  { name: "response body 2.1.6.1", backRoute: "/ batch" },
-  { name: "header 2.1.6.2", backRoute: "/ batch" },
-  { name: "gateway timeout 504 2.1.7", backRoute: "/ batch" },
-  { name: "response body 2.1.7.1", backRoute: "/ batch" },
-  { name: "header 2.1.7.2", backRoute: "/ batch" },
+  { name: "", backRoute: "/" },
 ];
 
 const toPascalCase = (str) =>

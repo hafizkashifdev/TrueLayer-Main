@@ -498,7 +498,7 @@ const BatchPage = () => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
-    router.push("/");
+    router.push("/true-layer-data-api-v1");
   }, [router]);
 
   return (
