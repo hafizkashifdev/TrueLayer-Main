@@ -21,7 +21,7 @@ interface CommonPageProps {
   backRoute?: string;
 }
 
-const MerchantListMerchantAccounts = ({ backRoute = "/get-payout" }) => {
+const MerchantListMerchantAccounts = ({ backRoute = "/merchant-accounts" }) => {
   const router = useRouter();
   const onBackIconClick = useCallback(() => {
     if (backRoute) {

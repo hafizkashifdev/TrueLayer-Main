@@ -13,7 +13,7 @@ import { CheckboxForm } from "@/components/checkbox-form";
 interface CommonPageProps {
   backRoute?: string;
 }
-const GetPayoutImageMap = ({ backRoute = "/get-payout" }) => {
+const GetPayoutImageMap = ({ backRoute = "/payouts" }) => {
   const router = useRouter();
 
   const handleClick = (
