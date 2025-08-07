@@ -444,3 +444,15 @@ export { default as PayoutWebhooksPayloadExecutedImage } from "./PayoutWebhooksP
 export { default as PayoutWebhooksPayloadFailedImage } from "./PayoutWebhooksPayloadFailedImage.svg";
 export { default as PayoutWebhooksHeadersImage } from "./PayoutWebhooksHeadersImage.svg";
 export { default as PayoutWebhooksResponse200Image } from "./PayoutWebhooksResponse200Image.svg";
+export { default as SubmitSchemeSelectionPathParamsImage } from "./SubmitSchemeSelectionPathParamsImage.svg";
+export { default as SubmitSchemeSelectionBodyParamsImage } from "./SubmitSchemeSelectionBodyParamsImage.svg";
+export { default as SubmitSchemeSelectionHeadersImage } from "./SubmitSchemeSelectionHeadersImage.svg";
+export { default as SubmitSchemeSelectionResponsesImage } from "./SubmitSchemeSelectionResponsesImage.svg";
+export { default as SubmitSchemeSelectionResponses200PaymentImage } from "./SubmitSchemeSelectionResponses200PaymentImage.svg";
+export { default as SubmitSchemeSelectionResponses400InvalidRequestImage } from "./SubmitSchemeSelectionResponses400InvalidRequestImage.svg";
+export { default as SubmitSchemeSelectionResponses401UnauthenticatedImage } from "./SubmitSchemeSelectionResponses401UnauthenticatedImage.svg";
+export { default as SubmitSchemeSelectionResponses403ForbiddenImage } from "./SubmitSchemeSelectionResponses403ForbiddenImage.svg";
+export { default as SubmitSchemeSelectionResponses404PaymentNotFoundImage } from "./SubmitSchemeSelectionResponses404PaymentNotFoundImage.svg";
+export { default as SubmitSchemeSelectionResponses409ConflictImage } from "./SubmitSchemeSelectionResponses409ConflictImage.svg";
+export { default as SubmitSchemeSelectionResponses422IdempotencyKeyReuseImage } from "./SubmitSchemeSelectionResponses422IdempotencyKeyReuseImage.svg";
+export { default as SubmitSchemeSelectionResponses500UnknownErrorImage } from "./SubmitSchemeSelectionResponses500UnknownErrorImage.svg";
