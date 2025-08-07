@@ -584,7 +584,6 @@ const MetaMainPage = ({
                         <Link
                             href={area.href}
                             target={area.target}
-                            title={area.title}
                         >
                             <g>
                                 <rect

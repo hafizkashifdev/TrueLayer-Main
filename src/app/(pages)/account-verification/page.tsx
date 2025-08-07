@@ -193,7 +193,7 @@ const AccountVerificationPage = ({
                         <Link
                             href={area.href}
                             target={area.target}
-                            title={area.title}
+                            // title={area.title}
                         >
                             <g>
                                 <rect

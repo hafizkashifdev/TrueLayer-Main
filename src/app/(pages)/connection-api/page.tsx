@@ -135,7 +135,7 @@ const ConnectionAPIPage = ({
                     <Tooltip key={area.id} title={area.title} arrow>
                         <Link
                             href={area.href}
-                            title={area.title}
+                            // title={area.title}
                         >
                             <g>
                                 <rect
