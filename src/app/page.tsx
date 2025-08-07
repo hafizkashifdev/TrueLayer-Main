@@ -1,33 +1,38 @@
-import { Box, Typography, Container } from "@mui/material";
+import FaGlobalScreen from "@/components/fa-global-screen";
+import {
+  TrueLayerHome1,
+  TrueLayerHome2,
+  TrueLayerHome3,
+  TrueLayerHome4,
+  TrueLayerHome5,
+  TrueLayerHome6,
+  TrueLayerHome7,
+  TrueLayerHome8,
+  TrueLayerHome9,
+  TrueLayerHome10,
+} from "@/assets";
+
+const cardsData = [
+  { key: '1', title: 'Introduction', href: '/introduction', icon: TrueLayerHome1 },
+  { key: '2', title: 'Authentication Server', href: '/true-layer-authentication-server', icon: TrueLayerHome2 },
+  { key: '3', title: 'Payments API v3', href: '/true-layer-payments-api-v3', icon: TrueLayerHome3 },
+  { key: '4', title: 'Data API v1', href: '/true-layer-data-api-v1', icon: TrueLayerHome4 },
+  { key: '5', title: 'Connections API', href: '/connection-api', icon: TrueLayerHome5 },
+  { key: '6', title: 'Client Tracking API', href: '/client-tracking-api', icon: TrueLayerHome6 },
+  { key: '7', title: 'Signup+', href: '/true-layer-signup', icon: TrueLayerHome7 },
+  { key: '8', title: 'Verification API', href: '/verification-api', icon: TrueLayerHome8 },
+  { key: '9', title: 'Legacy - Paym ents API', href: '/legacy-payment-api', icon: TrueLayerHome9 },
+  { key: '10', title: 'Legacy - PayDirect API', href: '/legacy-pay-direct-api', icon: TrueLayerHome10 },
+]
+
 
 export default function Home() {
   return (
-    <>
-      <Box
-        sx={{
-          backgroundColor: "#f0f4f8",
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center",
-          py: 8,
-        }}
-      >
-        <Container maxWidth="md">
-          <Typography
-            variant="h3"
-            component="h1"
-            gutterBottom
-            sx={{ color: "#003366" }}
-          >
-            Welcome to the starter template Locofy True Layer
-          </Typography>
-          <Typography variant="h6" sx={{ color: "#555" }}>
-            Your trusted platform for care service oversight and reporting.
-          </Typography>
-        </Container>
-      </Box>
-    </>
+    <FaGlobalScreen
+      pageTitle="TrueLayer"
+      cardsData={cardsData}
+      gridSize={{ xs: 12, md: 6, lg: 3 }}
+      showBackButton={false}
+    />
   );
 }
