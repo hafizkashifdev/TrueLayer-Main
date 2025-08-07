@@ -7,7 +7,7 @@ const AccountsGetAccountPendingGatewayTimeoutPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending gateway timeout`}
       src={AccountsGetAccountPendingGatewayTimeoutImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

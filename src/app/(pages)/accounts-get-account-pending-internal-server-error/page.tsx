@@ -7,7 +7,7 @@ const AccountsGetAccountPendingInternalServerErrorPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending internal server error`}
       src={AccountsGetAccountPendingInternalServerErrorImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

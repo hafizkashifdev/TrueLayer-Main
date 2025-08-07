@@ -7,7 +7,7 @@ const AccountsGetAccountPendingServiceUnavailablePage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending service unavailable`}
       src={AccountsGetAccountPendingServiceUnavailableImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

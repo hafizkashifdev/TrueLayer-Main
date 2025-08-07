@@ -7,7 +7,7 @@ const AccountsGetAccountPending400InvalidRequestPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending 400 invalid request`}
       src={AccountsGetAccountPending400InvalidRequestImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

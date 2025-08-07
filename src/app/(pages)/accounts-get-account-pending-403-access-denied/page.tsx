@@ -7,7 +7,7 @@ const AccountsGetAccountPending401AccessDeniedPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending 401 access denied `}
       src={AccountsGetAccountPending401AccessDeniedImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

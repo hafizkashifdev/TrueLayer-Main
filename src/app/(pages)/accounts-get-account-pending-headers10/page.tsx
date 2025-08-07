@@ -7,7 +7,7 @@ const AccountsGetAccountPendingHeaders10Page = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending headers10`}
       src={AccountsGetAccountPendingHeaders10Image}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

@@ -7,7 +7,7 @@ const AccountsGetAccountPending401UnauthorizedPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending 401 unauthorized`}
       src={AccountsGetAccountPending401UnauthorizedImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

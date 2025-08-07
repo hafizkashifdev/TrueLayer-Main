@@ -7,7 +7,7 @@ const AccountsGetAccountPendingLimitExceededPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending limit exceeded`}
       src={AccountsGetAccountPendingLimitExceededImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

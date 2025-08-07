@@ -7,7 +7,7 @@ const AccountsGetAccountPendingResponseBody3Page = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending response body3`}
       src={AccountsGetAccountPendingResponseBody3Image}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

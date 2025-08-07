@@ -7,7 +7,7 @@ const AccountsGetAccountPendingRunningBalancePage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending running balance`}
       src={AccountsGetAccountPendingRunningBalanceImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

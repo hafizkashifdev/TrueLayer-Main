@@ -7,7 +7,7 @@ const AccountsGetAccountPending404NotFoundPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending 404 not found`}
       src={AccountsGetAccountPending404NotFoundImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

@@ -7,7 +7,7 @@ const AccountsGetAccountPendingPathParamsPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending path params`}
       src={AccountsGetAccountPendingPathParamsImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };

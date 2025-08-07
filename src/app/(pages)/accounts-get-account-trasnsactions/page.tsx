@@ -1,8 +1,11 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { AccountsGetAccountTransactions } from '@/assets';
+import { CheckboxForm } from '@/components/checkbox-form';
+import { CommonBackIcon } from '@/assets/common-assets';
+import { useRouter } from 'next/navigation';
 
 const AccountTransactionsImageMap = () => {
     const imageAreas = [
@@ -287,7 +290,7 @@ const AccountTransactionsImageMap = () => {
             shape: "rect"
         }
     ];
-
+    const router = useRouter()
     const handleAreaClick = (href: any) => {
         window.open(href, '_parent');
     };
@@ -301,44 +304,69 @@ const AccountTransactionsImageMap = () => {
             height: y2 - y1
         };
     };
-
+    const onChange = () => { }
     return (
-        <Box sx={{ position: 'relative', }}>
-            <Image
-                src={AccountsGetAccountTransactions}
-                alt="Accounts Get Account Transactions API Diagram"
-                width={1803}
-                height={11841}
-                priority
-                style={{
-                    maxWidth: '100%',
-                    height: '100%'
-                }}
-            // useMap="#image-map"
-            />
+        <Box>
+            <Box display="flex" alignItems="center" flexWrap="wrap" flexGrow={1}>
+                <Image
+                    src={CommonBackIcon}
+                    alt='back'
+                    width={40}
+                    height={40}
+                    onClick={() => { router.back() }}
+                    style={{ cursor: "pointer" }}
+                />
+                <Typography
+                    variant="h5"
+                    color="#5A5867"
+                    fontSize={{ xs: "0.8rem", sm: "18px", md: "22px" }}
+                    fontWeight={{ md: 600, xs: 500 }}
+                    ml={{ md: 2, xs: 1 }}
+                    sx={{ fontFamily: "Outfit, inherit" }}
+                >
+                    Get account transactions
+                </Typography>
+            </Box>
+            <Box flexGrow={1}>
+                <CheckboxForm onChange={onChange} />
+            </Box>
+            <Box sx={{ position: 'relative', display: 'inline-block' }}>
+                <Image
+                    src={AccountsGetAccountTransactions}
+                    alt="Accounts Get Account Transactions API Diagram"
+                    width={1803}
+                    height={11841}
+                    priority
+                    style={{
+                        maxWidth: '100%',
+                        height: '100%'
+                    }}
+                // useMap="#image-map"
+                />
 
-            {imageAreas.map((area, index) => {
-                const coords = parseCoords(area.coords);
-                return (
-                    <Box key={index}
-                        component="button"
-                        onClick={() => handleAreaClick(area.href)}
-                        sx={{
-                            position: 'absolute',
-                            left: coords.left,
-                            top: coords.top,
-                            width: coords.width,
-                            height: coords.height,
-                            backgroundColor: 'transparent',
-                            border: 'none',
-                            cursor: 'pointer',
-                            zIndex: 1,
-                        }}
-                        aria-label={area.alt}
-                        title={area.title}
-                    />
-                );
-            })}
+                {imageAreas.map((area, index) => {
+                    const coords = parseCoords(area.coords);
+                    return (
+                        <Box key={index}
+                            component="button"
+                            onClick={() => handleAreaClick(area.href)}
+                            sx={{
+                                position: 'absolute',
+                                left: coords.left,
+                                top: coords.top,
+                                width: coords.width,
+                                height: coords.height,
+                                backgroundColor: 'transparent',
+                                border: 'none',
+                                cursor: 'pointer',
+                                zIndex: 1,
+                            }}
+                            aria-label={area.alt}
+                            title={area.title}
+                        />
+                    );
+                })}
+            </Box>
         </Box>
     );
 };

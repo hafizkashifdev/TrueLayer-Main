@@ -7,7 +7,7 @@ const AccountsGetAccountPendingNotImplementedPage = () => {
     <CommonPage
       pageTitle={`Accounts Get account pending not implemented`}
       src={AccountsGetAccountPendingNotImplementedImage}
-      backRoute="/"
+      backRoute="/account-get-account-pending-transaction"
     />
   );
 };
