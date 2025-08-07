@@ -402,3 +402,14 @@ export { default as PayoutWebhooksPayloadExecutedImage } from "./PayoutWebhooksP
 export { default as PayoutWebhooksPayloadFailedImage } from "./PayoutWebhooksPayloadFailedImage.svg";
 export { default as PayoutWebhooksHeadersImage } from "./PayoutWebhooksHeadersImage.svg";
 export { default as PayoutWebhooksResponse200Image } from "./PayoutWebhooksResponse200Image.svg";
+
+export { default as MerchantListMerchantAccountsImage } from "./MerchantListMerchantAccountsImage.svg";
+export { default as ListMerchantAccountsImage } from "./ListMerchantAccountsImage.svg";
+export { default as ListMerchantAccountsResponsesImage } from "./ListMerchantAccountsResponsesImage.svg";
+export { default as MerchantAccountResponseBodyImage200 } from "./MerchantAccountResponseBodyImage200.svg";
+export { default as SortCodeAccountNumberImage } from "./SortCodeAccountNumberImage.svg";
+export { default as ListMerchantAccountsIbnImage } from "./ListMerchantAccountsIbnImage.svg";
+export { default as ListMerchantAccountsNrbImage } from "./ListMerchantAccountsNrbImage.svg";
+export { default as UnauthenticatedResponseBody401Image } from "./UnauthenticatedResponseBody401Image.svg";
+export { default as ForbiddenResponseBody403Image } from "./ForbiddenResponseBody403Image.svg";
+export { default as UnknownErrorResponseBody400Image } from "./UnknownErrorResponseBody400Image.svg";

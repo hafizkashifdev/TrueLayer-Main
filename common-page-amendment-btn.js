@@ -8,25 +8,42 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // ✅ Corrected: Use "title" instead of "tile"
 const pages = [
   {
-    title: "Payout webhooks _ Payload",
-    ButtonRoute: "payout-webhooks",
+    title: "List merchant accounts",
+    ButtonRoute: "merchant-list-merchant-accounts",
   },
   {
-    title: "Payout webhooks _ Payload_Executed",
-    ButtonRoute: "payout-webhooks",
+    title: "List merchant accounts Responses",
+    ButtonRoute: "merchant-list-merchant-accounts",
   },
   {
-    title: "Payout webhooks _ Payload_Failed",
-    ButtonRoute: "payout-webhooks",
+    title: "200 _ Merchant Account _ Response Body",
+    ButtonRoute: "merchant-list-merchant-accounts",
   },
   {
-    title: "Payout webhooks _ Headers",
-    ButtonRoute: "payout-webhooks",
+    title: "Sort Code + Account Number",
+    ButtonRoute: "merchant-list-merchant-accounts",
   },
   {
-    title: "Payout webhooks _ Response 200",
-    ButtonRoute: "payout-webhooks",
+    title: "List merchant accounts IBN",
+    ButtonRoute: "merchant-list-merchant-accounts",
   },
+  {
+    title: "List merchant accounts NRB",
+    ButtonRoute: "merchant-list-merchant-accounts",
+  },
+  {
+    title: " Unauthenticated _ Response Body_401 ",
+    ButtonRoute: "merchant-list-merchant-accounts",
+  },
+  {
+    title: " Forbidden _ Response Body_403",
+    ButtonRoute: "merchant-list-merchant-accounts",
+  },
+  {
+    title: "Unknown Error _ Response Body_400",
+    ButtonRoute: "merchant-list-merchant-accounts",
+  },
+ 
 ];
 
 // Convert to PascalCase
