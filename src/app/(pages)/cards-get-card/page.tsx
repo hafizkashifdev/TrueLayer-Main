@@ -44,7 +44,7 @@ const CardsGetCardPage = () => {
     <CommonImgMapPage
       pageTitle={`Get card`}
       image={CardsGetCardImage}
-      backRoute="/trure-layer-accounts-cards"
+      backRoute="/true-layer-accounts-cards"
       areas={areas}
     />
   );
