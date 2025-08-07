@@ -300,3 +300,9 @@ export { default as GetCardTransactions35HeaderImage } from "./GetCardTransactio
 export { default as GetCardTransactions36504GatewayTimeoutImage } from "./GetCardTransactions36504GatewayTimeoutImage.svg";
 export { default as GetCardTransactions37ResponseBodyImage } from "./GetCardTransactions37ResponseBodyImage.svg";
 export { default as GetCardTransactions38HeaderImage } from "./GetCardTransactions38HeaderImage.svg";
+export { default as PayoutWebhooksImage } from "./PayoutWebhooksImage.svg";
+export { default as PayoutWebhooksPayloadImage } from "./PayoutWebhooksPayloadImage.svg";
+export { default as PayoutWebhooksPayloadExecutedImage } from "./PayoutWebhooksPayloadExecutedImage.svg";
+export { default as PayoutWebhooksPayloadFailedImage } from "./PayoutWebhooksPayloadFailedImage.svg";
+export { default as PayoutWebhooksHeadersImage } from "./PayoutWebhooksHeadersImage.svg";
+export { default as PayoutWebhooksResponse200Image } from "./PayoutWebhooksResponse200Image.svg";

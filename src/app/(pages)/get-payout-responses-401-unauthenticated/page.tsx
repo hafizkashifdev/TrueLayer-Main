@@ -1,15 +1,14 @@
 import { GetPayoutResponses401UnauthenticatedImage } from "@/assets";
+import { CommonPage } from "@/components";
 
-import AmendmentComparison from "@/components/amendment-comparison";
 import React from "react";
 
 const GetPayoutResponses401UnauthenticatedPage = () => {
   return (
-    <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health  Act 1983 / Part V / Get payout _ Responses_401  Unauthenticated`}
+    <CommonPage
+      pageTitle={` Get payout _ Responses_401  Unauthenticated`}
       src={GetPayoutResponses401UnauthenticatedImage}
-      backRoute="/"
-      amendmentButtonRoute="/get-payout"
+      backRoute="/get-payout"
     />
   );
 };

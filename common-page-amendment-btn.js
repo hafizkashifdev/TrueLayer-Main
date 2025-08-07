@@ -8,10 +8,25 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // ✅ Corrected: Use "title" instead of "tile"
 const pages = [
   {
-    title: "Get payout ",
-    ButtonRoute: "get-payout",
+    title: "Payout webhooks _ Payload",
+    ButtonRoute: "payout-webhooks",
   },
-
+  {
+    title: "Payout webhooks _ Payload_Executed",
+    ButtonRoute: "payout-webhooks",
+  },
+  {
+    title: "Payout webhooks _ Payload_Failed",
+    ButtonRoute: "payout-webhooks",
+  },
+  {
+    title: "Payout webhooks _ Headers",
+    ButtonRoute: "payout-webhooks",
+  },
+  {
+    title: "Payout webhooks _ Response 200",
+    ButtonRoute: "payout-webhooks",
+  },
 ];
 
 // Convert to PascalCase
