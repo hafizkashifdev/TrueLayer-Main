@@ -93,3 +93,11 @@ export { default as LegacyPaydirectApiDeposit14Image } from "./LegacyPaydirectAp
 export { default as LegacyPaydirectApiDeposit15Image } from "./LegacyPaydirectApiDeposit15Image.svg";
 export { default as LegacyPaydirectApiDeposit16Image } from "./LegacyPaydirectApiDeposit16Image.svg";
 export { default as AccessTokenBodyParamsClientCredentialsGrantRequestImage } from "./AccessTokenBodyParamsClientCredentialsGrantRequestImage.svg";
+export { default as LegacyPaydirectApiWithdrawalImage } from "./LegacyPaydirectApiWithdrawalImage.svg";
+export { default as AuthenticationServerAccessTokenImage } from "./AuthenticationServerAccessTokenImage.svg";
+export { default as IntroductionImage } from "./IntroductionImage.svg";
+export { default as DebugIdImage } from "./DebugIdImage.svg";
+export { default as LegacyPaydirectApiDepositImage } from "./LegacyPaydirectApiDepositImage.svg";
+export { default as LegacyPaydirectApiUserImage } from "./LegacyPaydirectApiUserImage.svg";
+export { default as LegacyPaydirectApiBalancesImage } from "./LegacyPaydirectApiBalancesImage.svg";
+export { default as LegacyPaydirectApiTransactionsImage } from "./LegacyPaydirectApiTransactionsImage.svg";
