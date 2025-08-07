@@ -20,12 +20,12 @@ const areas = [
     title: "legacy-payment-api-get-providers",
   },
   {
-    href: "/",
+    href: "https://api.truelayer.com/signup-plus/payments",
     x: 1142.38,
     y: 7.08,
     width: 688.97,
     height: 86.79,
-    title: "Area 2",
+    title: "https://api.truelayer.com/signup-plus/payments",
   },
   {
     href: "/legacy-payment-api-get-providers",
@@ -68,12 +68,12 @@ const areas = [
     title: "legacy-payment-api-initiate-a-payment",
   },
   {
-    href: "/",
+    href: "https://pay-api.truelayer.com/v2/single-immediate-payment-initiation-requests",
     x: 1057.36,
     y: 2344.98,
     width: 733.25,
     height: 90.33,
-    title: "Area 9",
+    title: "https://pay-api.truelayer.com/v2/single-immediate-payment-initiation-requests",
   },
   {
     href: "/legacy-payment-api-initiate-a-payment",
@@ -140,12 +140,12 @@ const areas = [
     title: "legacy-payment-api-submit-embedded-auth-flow-steps",
   },
   {
-    href: "/",
+    href: "https://pay-api.truelayer.com/v2/single-immediate-payments/%7Bsip_id%7D/embedded-auth-steps/%7Bstep_id%7D/submission",
     x: 882.02,
     y: 5823.48,
     width: 938.7,
     height: 108.04,
-    title: "Area 18",
+    title: "https://pay-api.truelayer.com/v2/single-immediate-payments/%7Bsip_id%7D/embedded-auth-steps/%7Bstep_id%7D/submission",
   },
   {
     href: "/legacy-payment-api-response",
@@ -212,12 +212,12 @@ const areas = [
     title: "legacy-payment-api-get-a-payment",
   },
   {
-    href: "/",
+    href: "https://pay-api.truelayer.com/v2/single-immediate-payments/%7Bsip_id%7D",
     x: 1163.63,
     y: 8173.77,
     width: 644.69,
     height: 106.27,
-    title: "Area 27",
+    title: "https://pay-api.truelayer.com/v2/single-immediate-payments/%7Bsip_id%7D",
   },
   {
     href: "/legacy-payment-api-response-3",
@@ -296,11 +296,15 @@ const LegacyPaymentApiPage = () => {
             style={{ width: "100%", height: "auto" }}
           />
 
-          {areas.map((area, index) => (
+  {areas.map((area, index) => (
             <Tooltip key={index} title={area.title} arrow>
               <Box
-                component={Link}
+                component={area.href.startsWith('https://') ? 'a' : Link}
                 href={area.href}
+                {...(area.href.startsWith('https://') ? {
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                } : {})}
                 sx={{
                   position: "absolute",
                   left: `${(area.x / IMG_WIDTH) * 100}%`,

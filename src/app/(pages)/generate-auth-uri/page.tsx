@@ -113,7 +113,7 @@ const GenerateAuthURIPage = () => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
-    router.push("/sign-up"); // Update with your actual back route
+    router.push("/true-layer-signup"); // Update with your actual back route
   }, [router]);
 
   return (

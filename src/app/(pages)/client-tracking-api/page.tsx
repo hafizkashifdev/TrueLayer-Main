@@ -20,12 +20,12 @@ const areas = [
     title: "client-tracking-api-tracked-api",
   },
   {
-    href: "/",
+    href: "https://client-tracking.truelayer.com/v1/tracked-events",
     x: 1333.79,
     y: 15.79,
     width: 491.4,
     height: 61.42,
-    title: "area 2",
+    title: "https://client-tracking.truelayer.com/v1/tracked-events",
   },
   {
     href: "/client-tracking-api-response",
@@ -136,26 +136,31 @@ const ClientTrackingApiPage = () => {
             style={{ width: "100%", height: "auto" }}
           />
 
-          {areas.map((area, index) => (
-            <Tooltip key={index} title={area.title} arrow>
-              <Box
-                component={Link}
-                href={area.href}
-                sx={{
-                  position: "absolute",
-                  left: `${(area.x / IMG_WIDTH) * 100}%`,
-                  top: `${(area.y / IMG_HEIGHT) * 100}%`,
-                  width: `${(area.width / IMG_WIDTH) * 100}%`,
-                  height: `${(area.height / IMG_HEIGHT) * 100}%`,
-                  cursor: "pointer",
-                  "&:hover": {
-                    outline: "2px solid white",
-                    opacity: 0.2,
-                  },
-                }}
-              />
-            </Tooltip>
-          ))}
+
+{areas.map((area, index) => (
+  <Tooltip key={index} title={area.title} arrow>
+    <Box
+      component={area.href.startsWith('http') ? 'a' : Link}
+      href={area.href}
+      {...(area.href.startsWith('http') ? {
+        target: '_blank',
+        rel: 'noopener noreferrer'
+      } : {})}
+      sx={{
+        position: "absolute",
+        left: `${(area.x / IMG_WIDTH) * 100}%`,
+        top: `${(area.y / IMG_HEIGHT) * 100}%`,
+        width: `${(area.width / IMG_WIDTH) * 100}%`,
+        height: `${(area.height / IMG_HEIGHT) * 100}%`,
+        cursor: "pointer",
+        "&:hover": {
+          outline: "2px solid white",
+          opacity: 0.2,
+        },
+      }}
+    />
+  </Tooltip>
+))}
         </Box>
       </Box>
     </Box>
