@@ -1,18 +1,19 @@
 "use client";
 import React, { useCallback, useState } from "react";
 import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import { createPayoutAreas } from "./data";
-import { CreatePayoutImage } from "@/assets";
 import { useRouter } from "next/navigation";
-import { CheckboxForm } from "@/components/checkbox-form";
-import { Stack, Typography } from "@mui/material";
+import { GetPayoutImage } from "@/assets";
+import { getPayoutAreas } from "./data";
+import { Stack } from "@mui/material";
 import { CommonBackIcon } from "@/assets/common-assets";
+import { CheckboxForm } from "@/components/checkbox-form";
 
 interface CommonPageProps {
   backRoute?: string;
 }
-const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
+const GetPayoutImageMap = ({ backRoute = "/get-payout" }) => {
   const router = useRouter();
 
   const handleClick = (
@@ -31,8 +32,6 @@ const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
     if (!area.href.startsWith("#")) {
       router.push(area.href);
     }
-
-    // # links can be handled separately if needed
   };
   const onBackIconClick = useCallback(() => {
     if (backRoute) {
@@ -55,8 +54,8 @@ const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
       position="relative"
       width="100%"
       sx={{
-        height: { xs: "auto", md: 5218 },
-        aspectRatio: "1920/5218",
+        height: { xs: "auto", md: 7749 },
+        aspectRatio: "1875/7749",
       }}
     >
       <Stack
@@ -82,18 +81,18 @@ const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
           ml={{ md: 2, xs: 1 }}
           sx={{ fontFamily: "inherit" }}
         >
-          Create payout
+          Get payout
         </Typography>
       </Stack>
       <Box mb={{ md: 4, sm: 3, xs: 2 }}>
         <CheckboxForm onChange={handleStatusChange} />
       </Box>
-
+      {/* Main Image */}
       <Image
-        src={CreatePayoutImage}
-        alt="Create Payout Diagram"
-        width={1920}
-        height={5218}
+        src={GetPayoutImage}
+        alt="Get Payout Diagram"
+        width={1875}
+        height={7749}
         style={{
           width: "100%",
           height: "auto",
@@ -103,7 +102,7 @@ const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
       />
 
       {/* Interactive Areas */}
-      {createPayoutAreas.map((area) => (
+      {getPayoutAreas.map((area) => (
         <Box
           key={area.id}
           component="a"
@@ -112,10 +111,10 @@ const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
           rel={area.target ? "noopener noreferrer" : undefined}
           onClick={(e) => handleClick(e, area)}
           position="absolute"
-          left={toPercentage(area.x, 1920)}
-          top={toPercentage(area.y, 5218)}
-          width={toPercentage(area.width, 1920)}
-          height={toPercentage(area.height, 5218)}
+          left={toPercentage(area.x, 1875)}
+          top={toPercentage(area.y, 7749)}
+          width={toPercentage(area.width, 1875)}
+          height={toPercentage(area.height, 7749)}
           sx={{
             cursor: "pointer",
           }}
@@ -125,4 +124,4 @@ const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
   );
 };
 
-export default CreatePayoutImageMap;
+export default GetPayoutImageMap;

@@ -164,3 +164,15 @@ export { default as CardsGetCardBalance32HeaderImage } from "./CardsGetCardBalan
 export { default as CardsGetCardBalance33504GatewayTimeoutImage } from "./CardsGetCardBalance33504GatewayTimeoutImage.svg";
 export { default as CardsGetCardBalance34ResponseBodyImage } from "./CardsGetCardBalance34ResponseBodyImage.svg";
 export { default as CardsGetCardBalance35HeaderImage } from "./CardsGetCardBalance35HeaderImage.svg";
+export { default as GetPayoutImage } from "./GetPayoutImage.svg";
+export { default as GetPayoutPathParamsImage } from "./GetPayoutPathParamsImage.svg";
+export { default as GetPayoutResponsesImage } from "./GetPayoutResponsesImage.svg";
+export { default as GetPayoutResponses200PayoutImage } from "./GetPayoutResponses200PayoutImage.svg";
+export { default as GetPayoutResponses200PayoutPendingImage } from "./GetPayoutResponses200PayoutPendingImage.svg";
+export { default as GetPayoutResponses200PayoutAuthorizedImage } from "./GetPayoutResponses200PayoutAuthorizedImage.svg";
+export { default as GetPayoutResponses200PayoutExecutedImage } from "./GetPayoutResponses200PayoutExecutedImage.svg";
+export { default as GetPayoutResponses200PayoutFailedImage } from "./GetPayoutResponses200PayoutFailedImage.svg";
+export { default as GetPayoutResponses401UnauthenticatedImage } from "./GetPayoutResponses401UnauthenticatedImage.svg";
+export { default as GetPayoutResponses403ForbiddenImage } from "./GetPayoutResponses403ForbiddenImage.svg";
+export { default as GetPayoutResponses404PayoutNotFoundImage } from "./GetPayoutResponses404PayoutNotFoundImage.svg";
+export { default as GetPayoutResponses500UnknownErrorImage } from "./GetPayoutResponses500UnknownErrorImage.svg";

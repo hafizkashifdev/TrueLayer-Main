@@ -15,8 +15,8 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "https://api.truelayer-sandbox.com/v3/payment-links",
     target: "_blank",
     title: "post",
-    x: 1275.7094017094016,
-    y: 250.92307692307693,
+    x: 1295.7094017094016,
+    y: 230.92307692307693,
     width: 433.96011396011386,
     height: 32.82051282051282
   },
@@ -24,8 +24,8 @@ export const createPayoutAreas: InteractiveArea[] = [
     id: "body-params",
     href: "/create-payout-body-params",
     title: "create-payout-body-params",
-    x: 45.58404558404558,
-    y: 385.2079772079772,
+    x: 55.58404558404558,
+    y: 345.2079772079772,
     width: 275.32763532763533,
     height: 43.760683760683776
   },
@@ -43,16 +43,16 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-body-params-payment-source",
     title: "create-payout-body-params-payment-source",
     x: 65.64102564102564,
-    y: 1180.3247863247864,
+    y: 1190.3247863247864,
     width: 355.14529914529913,
     height: 40.11396011396005
   },
   {
     id: "unnamed-2",
-    href: "#",
+    href: "/create-payout-body-params-business-account",
     title: "unnamed-link-2",
     x: 1033.8461538461536,
-    y: 1180.97150997151,
+    y: 1190.97150997151,
     width: 339.14529914529953,
     height: 43.76068376068372
   },
@@ -61,7 +61,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-headers",
     title: "create-payout-headers",
     x: 45.58404558404558,
-    y: 1973.6182336182337,
+    y: 1999.6182336182337,
     width: 182.33618233618233,
     height: 38.290598290598155
   },
@@ -70,7 +70,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses",
     title: "create-payout-responses",
     x: 56.52421652421651,
-    y: 2335.826210826211,
+    y: 2365.826210826211,
     width: 209.68660968660964,
     height: 32.820512820512704
   },
@@ -79,7 +79,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-201-payout",
     title: "create-payout-responses-201-payout",
     x: 67.46438746438747,
-    y: 2448.054131054131,
+    y: 2488.054131054131,
     width: 253.44729344729342,
     height: 47.40740740740762
   },
@@ -88,7 +88,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-400-invalid-parameters",
     title: "create-payout-responses-400-invalid-parameters",
     x: 799.3988603988604,
-    y: 2448.054131054131,
+    y: 2488.054131054131,
     width: 417.5498575498576,
     height: 58.34757834757852
   },
@@ -97,7 +97,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-401-unauthenticated",
     title: "create-payout-responses-401-unauthenticated",
     x: 75.64102564102564,
-    y: 3030.774928774929,
+    y: 3090.774928774929,
     width: 382.9059829059829,
     height: 51.054131054131176
   },
@@ -106,7 +106,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-403-forbidden",
     title: "create-payout-responses-403-forbidden",
     x: 77.46438746438747,
-    y: 3590.02849002849,
+    y: 3660.02849002849,
     width: 293.5612535612536,
     height: 63.81766381766374
   },
@@ -115,7 +115,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-409-idempotency-key-concurrency-conflict",
     title: "create-payout-responses-409-idempotency-key-concurrency-conflict",
     x: 81.99430199430199,
-    y: 4150.3390313390314,
+    y: 4219.3390313390314,
     width: 687.4074074074074,
     height: 58.34757834757829
   },
@@ -124,7 +124,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "#",
     title: "create-payout-responses-422-idempotency-key-reuse",
     x: 77.46438746438747,
-    y: 4699.8860398860397,
+    y: 4779.8860398860397,
     width: 475.89743589743586,
     height: 74.7578347578351
   },
@@ -133,7 +133,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-429-rate-limit-exceeded",
     title: "create-payout-responses-429-rate-limit-exceeded",
     x: 77.93447293447294,
-    y: 5250.669515669516,
+    y: 5350.669515669516,
     width: 437.60683760683764,
     height: 72.93447293447298
   },
@@ -142,7 +142,7 @@ export const createPayoutAreas: InteractiveArea[] = [
     href: "/create-payout-responses-500-unknown-error",
     title: "create-payout-responses-500-unknown-error",
     x: 79.28774928774929,
-    y: 5799.5698005698005,
+    y: 5899.5698005698005,
     width: 344.6153846153846,
     height: 76.58119658119631
   }
