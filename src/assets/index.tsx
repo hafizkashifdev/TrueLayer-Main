@@ -262,3 +262,16 @@ export { default as CreatePaymentResponses409IdempotencyKeyConcurrencyConflictIm
 export { default as CreatePaymentResponses422IdempotencyKeyReuseImage } from "./CreatePaymentResponses422IdempotencyKeyReuseImage.svg";
 export { default as CreatePaymentResponses429RateLimitExceededImage } from "./CreatePaymentResponses429RateLimitExceededImage.svg";
 export { default as CreatePaymentResponses500UnknownErrorImage } from "./CreatePaymentResponses500UnknownErrorImage.svg";
+export { default as PaymentsSubmitConsentImage } from "./PaymentsSubmitConsentImage.svg";
+export { default as SubmitConsentPathParamsImage } from "./SubmitConsentPathParamsImage.svg";
+export { default as SubmitConsentBodyParamsImage } from "./SubmitConsentBodyParamsImage.svg";
+export { default as SubmitConsentHeadersImage } from "./SubmitConsentHeadersImage.svg";
+export { default as SubmitConsentResponsesImage } from "./SubmitConsentResponsesImage.svg";
+export { default as SubmitConsentResponses200PaymentImage } from "./SubmitConsentResponses200PaymentImage.svg";
+export { default as SubmitConsentResponses400InvalidRequestImage } from "./SubmitConsentResponses400InvalidRequestImage.svg";
+export { default as SubmitConsentResponses401UnauthenticatedImage } from "./SubmitConsentResponses401UnauthenticatedImage.svg";
+export { default as SubmitConsentResponses403ForbiddenImage } from "./SubmitConsentResponses403ForbiddenImage.svg";
+export { default as SubmitConsentResponses404PaymentNotFoundImage } from "./SubmitConsentResponses404PaymentNotFoundImage.svg";
+export { default as SubmitConsentResponses409ConflictImage } from "./SubmitConsentResponses409ConflictImage.svg";
+export { default as SubmitConsentResponses422IdempotencyKeyReuseImage } from "./SubmitConsentResponses422IdempotencyKeyReuseImage.svg";
+export { default as SubmitConsentResponses500UnknownErrorImage } from "./SubmitConsentResponses500UnknownErrorImage.svg";
