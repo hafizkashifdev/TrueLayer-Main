@@ -739,3 +739,23 @@ export { default as PayoutWebhooksPayloadExecutedImage } from "./PayoutWebhooksP
 export { default as PayoutWebhooksPayloadFailedImage } from "./PayoutWebhooksPayloadFailedImage.svg";
 export { default as PayoutWebhooksHeadersImage } from "./PayoutWebhooksHeadersImage.svg";
 export { default as PayoutWebhooksResponse200Image } from "./PayoutWebhooksResponse200Image.svg";
+export { default as PaymentsCancelPaymentImage } from "./PaymentsCancelPaymentImage.svg";
+
+export { default as PaymentsCancelPaymentPathParamsImage } from "./PaymentsCancelPaymentPathParamsImage.svg";
+export { default as PaymentsCancelPaymentHeadersImage } from "./PaymentsCancelPaymentHeadersImage.svg";
+export { default as PaymentsCancelPaymentResponsesImage } from "./PaymentsCancelPaymentResponsesImage.svg";
+export { default as PaymentsCancelPaymentResponses202AcceptedImage } from "./PaymentsCancelPaymentResponses202AcceptedImage.svg";
+export { default as PaymentsCancelPaymentResponses400InvalidRequestImage } from "./PaymentsCancelPaymentResponses400InvalidRequestImage.svg";
+export { default as PaymentsCancelPaymentResponses401UnauthenticatedImage } from "./PaymentsCancelPaymentResponses401UnauthenticatedImage.svg";
+export { default as PaymentsCancelPaymentResponses403ForbiddenImage } from "./PaymentsCancelPaymentResponses403ForbiddenImage.svg";
+export { default as PaymentsCancelPaymentResponses404PaymentNotFoundImage } from "./PaymentsCancelPaymentResponses404PaymentNotFoundImage.svg";
+export { default as PaymentsCancelPaymentResponses409ConflictImage } from "./PaymentsCancelPaymentResponses409ConflictImage.svg";
+export { default as PaymentsCancelPaymentResponses422IdempotencyKeyReuseImage } from "./PaymentsCancelPaymentResponses422IdempotencyKeyReuseImage.svg";
+export { default as PaymentsCancelPaymentResponses500UnknownErrorImage } from "./PaymentsCancelPaymentResponses500UnknownErrorImage.svg";
+export { default as PaymentsRefundWebhooksImage } from "./PaymentsRefundWebhooksImage.svg";
+
+export { default as PaymentsRefundWebhooksPayload1Image } from "./PaymentsRefundWebhooksPayload1Image.svg";
+export { default as PaymentsRefundWebhooksPayloadExecutedImage } from "./PaymentsRefundWebhooksPayloadExecutedImage.svg";
+export { default as PaymentsRefundWebhooksPayloadFailedImage } from "./PaymentsRefundWebhooksPayloadFailedImage.svg";
+export { default as PaymentsRefundWebhooksPayloadHeadersImage } from "./PaymentsRefundWebhooksPayloadHeadersImage.svg";
+export { default as PaymentsRefundWebhooksPayloadResponsesImage } from "./PaymentsRefundWebhooksPayloadResponsesImage.svg";
