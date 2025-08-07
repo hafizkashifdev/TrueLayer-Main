@@ -6,21 +6,9 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Submit scheme selection_ Path  Params", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Body  Params", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Headers", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_Responses", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses_200 Payment", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses_400 Invalid Request", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses_401 Unauthenticated", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses_403 Forbidden", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses 404 Payment Not Found", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses 409  Conflict", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses_422 Idempotency-Key Reuse", backRoute: "/payments-submit-scheme-selection" },
-  { name: "Submit scheme selection_ Responses_500  Unknown Error", backRoute: "/payments-submit-scheme-selection" },
-]
-
-
+  { name: "constraints Get mandate constraints", backRoute: "/mandates-get-mandate-constraints" },
+  { name: "constraints Responses", backRoute: "/mandates-get-mandate-constraints" },
+];
 
 const toPascalCase = (str) =>
   str
