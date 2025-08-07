@@ -1,13 +1,18 @@
 "use client";
-import React from "react";
+import React, { useCallback, useState } from "react";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import { createPayoutAreas } from "./data";
 import { CreatePayoutImage } from "@/assets";
 import { useRouter } from "next/navigation";
+import { CheckboxForm } from "@/components/checkbox-form";
+import { Stack, Typography } from "@mui/material";
+import { CommonBackIcon } from "@/assets/common-assets";
 
-const CreatePayoutImageMap = () => {
+interface CommonPageProps {
+  backRoute?: string;
+}
+const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
   const router = useRouter();
 
   const handleClick = (
@@ -29,7 +34,18 @@ const CreatePayoutImageMap = () => {
 
     // # links can be handled separately if needed
   };
+  const onBackIconClick = useCallback(() => {
+    if (backRoute) {
+      router.push(backRoute);
+    }
+  }, [router, backRoute]);
 
+  const [selectedStatus, setSelectedStatus] = useState<string>("");
+
+  const handleStatusChange = (selectedValue: string, page: string) => {
+    setSelectedStatus(selectedValue);
+    // You can add additional logic here based on the selected value
+  };
   // Convert pixel values to percentages for responsiveness
   const toPercentage = (value: number, total: number) =>
     `${(value / total) * 100}%`;
@@ -43,7 +59,36 @@ const CreatePayoutImageMap = () => {
         aspectRatio: "1920/5218",
       }}
     >
-      {/* Main Image */}
+      <Stack
+        flexDirection="row"
+        alignItems="center"
+        mt={{ md: 2, xs: 1 }}
+        mb={{ md: 4, sm: 3, xs: 2 }}
+        p={3}
+      >
+        <Image
+          src={CommonBackIcon}
+          alt={"pageTitle"}
+          width={40}
+          height={40}
+          onClick={onBackIconClick}
+          style={{ cursor: "pointer" }}
+        />
+        <Typography
+          variant="h5"
+          color="#5A5867"
+          fontSize={{ xs: "0.8rem", sm: "18px", md: "22px" }}
+          fontWeight={{ md: 600, xs: 500 }}
+          ml={{ md: 2, xs: 1 }}
+          sx={{ fontFamily: "inherit" }}
+        >
+          Create payout
+        </Typography>
+      </Stack>
+      <Box mb={{ md: 4, sm: 3, xs: 2 }}>
+        <CheckboxForm onChange={handleStatusChange} />
+      </Box>
+
       <Image
         src={CreatePayoutImage}
         alt="Create Payout Diagram"
@@ -73,11 +118,6 @@ const CreatePayoutImageMap = () => {
           height={toPercentage(area.height, 5218)}
           sx={{
             cursor: "pointer",
-            "&:hover": {
-              outline: "2px solid white",
-              opacity: 0.2,
-              backgroundColor: "rgba(255,255,255,0.2)",
-            },
           }}
         ></Box>
       ))}
