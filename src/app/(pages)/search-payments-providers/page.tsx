@@ -73,7 +73,7 @@ const SearchPaymentsProvidersPage = () => {
     <CommonImgMapPage
       pageTitle={`Search Payments providers`}
       image={SearchPaymentsProvidersImage}
-      backRoute="/truelayer-payments-api-v3"
+      backRoute="/payments-providers"
       areas={areas}
     />
   );

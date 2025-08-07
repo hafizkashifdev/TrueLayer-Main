@@ -31,7 +31,7 @@ const PaymentLinkWebhooksPage = () => {
     <CommonImgMapPage
       pageTitle={`Payment link webhooks`}
       image={PaymentLinkWebhooksImage}
-      backRoute="/truelayer-payments-api-v3"
+      backRoute="/payment-links"
       areas={areas}
     />
   );

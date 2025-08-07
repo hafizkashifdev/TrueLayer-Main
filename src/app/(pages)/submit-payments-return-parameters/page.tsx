@@ -80,7 +80,7 @@ const SubmitPaymentsReturnParametersPage = () => {
     <CommonImgMapPage
       pageTitle={`Submit payments return parameters`}
       image={SubmitPaymentsReturnParametersImage}
-      backRoute="/truelayer-payments-api-v3"
+      backRoute="/true-layer-payments-api-v3"
       areas={areas}
     />
   );

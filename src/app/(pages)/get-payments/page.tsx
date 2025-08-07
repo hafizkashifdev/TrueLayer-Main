@@ -108,7 +108,7 @@ const GetPaymentsPage = () => {
     <CommonImgMapPage
       pageTitle={`Get payments`}
       image={GetPaymentsImage}
-      backRoute="/truelayer-payments-api-v3"
+      backRoute="/payment-links"
       areas={areas}
     />
   );
