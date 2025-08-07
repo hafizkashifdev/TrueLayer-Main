@@ -1,3 +1,4 @@
+"us client";
 const fs = require("fs");
 const path = require("path");
 
@@ -6,14 +7,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Legacy - PayDirect API  Withdrawal", backRoute: "/TrueLayer _ SIGNUP" },
-  { name: "Authentication Server_Access Token", backRoute: "/TrueLayer _ Authentication Server" },
-  { name: "Introduction", backRoute: "/" },
-  { name: "Debug ID", backRoute: "/TrueLayer _ Authentication Server" },
-  { name: "Legacy - PayDirect API  Deposit", backRoute: "/TrueLayer _ SIGNUP" },
-  { name: "Legacy - PayDirect API  User", backRoute: "/TrueLayer _ SIGNUP" },
-  { name: "Legacy - PayDirect API balances", backRoute: "/TrueLayer _ SIGNUP" },
-  { name: "Legacy - PayDirect API Transactions", backRoute: "/TrueLayer _ SIGNUP" },
+  { name: "Cards Get card", backRoute: "/trueLayer_accounts_cards" },
 ];
 
 const toPascalCase = (str) =>
