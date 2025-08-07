@@ -469,3 +469,16 @@ export { default as SubmitProviderSelectionResponses404PaymentNotFoundImage } fr
 export { default as SubmitProviderSelectionResponses409ConflictImage } from "./SubmitProviderSelectionResponses409ConflictImage.svg";
 export { default as SubmitProviderSelectionResponses422IdempotencyKeyReuseImage } from "./SubmitProviderSelectionResponses422IdempotencyKeyReuseImage.svg";
 export { default as SubmitProviderSelectionResponses500UnknownErrorImage } from "./SubmitProviderSelectionResponses500UnknownErrorImage.svg";
+export { default as PaymentsStartAuthorizationFlowImage } from "./PaymentsStartAuthorizationFlowImage.svg";
+export { default as StartAuthorizationFlowPathParamsImage } from "./StartAuthorizationFlowPathParamsImage.svg";
+export { default as StartAuthorizationFlowBodyParamsImage } from "./StartAuthorizationFlowBodyParamsImage.svg";
+export { default as StartAuthorizationFlowHeadersImage } from "./StartAuthorizationFlowHeadersImage.svg";
+export { default as StartAuthorizationFlowResponsesImage } from "./StartAuthorizationFlowResponsesImage.svg";
+export { default as StartAuthorizationFlowResponses200PaymentImage } from "./StartAuthorizationFlowResponses200PaymentImage.svg";
+export { default as StartAuthorizationFlowResponses400InvalidRequestImage } from "./StartAuthorizationFlowResponses400InvalidRequestImage.svg";
+export { default as StartAuthorizationFlowResponses401UnauthenticatedImage } from "./StartAuthorizationFlowResponses401UnauthenticatedImage.svg";
+export { default as StartAuthorizationFlowResponses403ForbiddenImage } from "./StartAuthorizationFlowResponses403ForbiddenImage.svg";
+export { default as StartAuthorizationFlowResponses404PaymentNotFoundImage } from "./StartAuthorizationFlowResponses404PaymentNotFoundImage.svg";
+export { default as StartAuthorizationFlowResponses409ConflictImage } from "./StartAuthorizationFlowResponses409ConflictImage.svg";
+export { default as StartAuthorizationFlowResponses422IdempotencyKeyReuseImage } from "./StartAuthorizationFlowResponses422IdempotencyKeyReuseImage.svg";
+export { default as StartAuthorizationFlowResponses500UnknownErrorImage } from "./StartAuthorizationFlowResponses500UnknownErrorImage.svg";

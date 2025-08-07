@@ -130,7 +130,7 @@ const PaymentsSubmitProviderSelectionPage = () => {
       backRoute={'/true-layer-payments-api-v3-payments'}
       pageTitle={'Submit provider selection'}
       areas={areas}
-      imageHeight={5022}
+      imageHeight={5044}
       imageWidth={1823}
     />
   );
