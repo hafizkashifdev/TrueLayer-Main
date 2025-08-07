@@ -5,8 +5,47 @@ const baseDir = path.join(__dirname, "src", "app", "(pages)");
 const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
+// const pages = [
+//   { name: "cross-sector-inspections", title:"Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
+// ];
+
 const pages = [
-  { name: "Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
+  // { name: "accounts-get-direct-debits-2", title: "Get direct debits" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-path-params", title: "Path Params" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-query-params", title: "Query Params" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+// { name: "accounts-get-direct-debits-responses", title: "Responses" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-200-ok", title: "200 (OK)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-200-ok-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-200-ok-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-202-accepted", title: "Accepted" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-202-accepted-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-202-accepted-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"}, 
+  // { name: "accounts-get-direct-debits-responses-401-unauthorized", title: "401(Unauthorized)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-401-unauthorized-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-401-unauthorized-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-403-access-denied", title: "403(Access Denied)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-403-access-denied-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-403(access-denied)-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-404-not-found", title: "404(Not Found)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-404-not-found-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-404-not-found-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-429-rate-limit-exceeded", title: "429(Rate Limit Exceeded)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-429-rate-limit-exceeded-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-429-rate-limit-exceeded-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-500-internal-server-error", title: "500(Internal Server Error)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-500-internal-server-error-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-500-internal-server-error-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-501-not-implemented", title: "501(not-implemented)" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-501-not-implemented-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  // { name: "accounts-get-direct-debits-responses-501-not-implemented-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+
+  { name: "accounts-get-direct-debits-responses-503-service-unavailable", title: "503(Service Unavailable)" , backRoute: "/accounts-get-direct-debits"},
+  { name: "accounts-get-direct-debits-responses-503-service-unavailable-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  { name: "accounts-get-direct-debits-responses-503-service-unavailable-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
+  { name: "accounts-get-direct-debits-responses-504-gateway-timeout", title: "504(Gateway Timeout)" , backRoute: "/accounts-get-direct-debits"},
+  { name: "accounts-get-direct-debits-responses-504-gateway-timeout-response-body", title: "Response Body" , backRoute: "/accounts-get-direct-debits"},
+  { name: "accounts-get-direct-debits-responses-504-gateway-timeout-headers", title: "Headers" , backRoute: "/accounts-get-direct-debits"},
 ];
 
 const toPascalCase = (str) =>
