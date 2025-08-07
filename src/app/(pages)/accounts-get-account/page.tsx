@@ -338,7 +338,7 @@ const AccountsGetAccount = () => {
   const router = useRouter();
  
    const onBackIconClick = useCallback(() => {
-     router.push("/trueLayer-accounts");
+     router.push("/true-layer-accounts");
    }, [router]);
  
    return (
