@@ -8,42 +8,46 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // ✅ Corrected: Use "title" instead of "tile"
 const pages = [
   {
-    title: "List merchant accounts",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account ",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: "List merchant accounts Responses",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account Responses ",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: "200 _ Merchant Account _ Response Body",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Merchant Account _ Response Body_200",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: "Sort Code + Account Number",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Sort Code + Account Number ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  
+  {
+    title: "Get merchant account IBN",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: "List merchant accounts IBN",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account NRB ",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: "List merchant accounts NRB",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account 401 _ Unauthenticated _ Response Body ",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: " Unauthenticated _ Response Body_401 ",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account 403 _ Forbidden _ Response Body ",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: " Forbidden _ Response Body_403",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account 404 _ Account Not Found _ Response Body",
+    ButtonRoute: "get-merchant-account-main",
   },
   {
-    title: "Unknown Error _ Response Body_400",
-    ButtonRoute: "merchant-list-merchant-accounts",
+    title: "Get merchant account 500 _ Unknown Error _ Response Body",
+    ButtonRoute: "get-merchant-account-main",
   },
- 
 ];
 
 // Convert to PascalCase
