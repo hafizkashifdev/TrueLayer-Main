@@ -292,9 +292,9 @@ const GetAccountPendingTransactionsImageMap = () => {
     }
   ];
   const handleAreaClick = (href: any) => {
-    window.open(href, '_parent');
+   router.push(href)
   };
-
+ 
   const parseCoords = (coords: any) => {
     const [x1, y1, x2, y2] = coords.split(',').map(Number);
     return {
@@ -313,7 +313,7 @@ const GetAccountPendingTransactionsImageMap = () => {
           alt='back'
           width={40}
           height={40}
-          onClick={() => { router.back() }}
+          onClick={() => { router.push('/true-layer-accounts') }}
           style={{ cursor: "pointer" }}
         />
         <Typography

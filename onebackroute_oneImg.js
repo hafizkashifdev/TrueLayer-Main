@@ -6,15 +6,19 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Get sweeping settings 1", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings Responses", backRoute: "/Get sweeping settings" },
-  { name: "200_ Automatic sweeping settings _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 401_ unauthenticated _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 403 _ Forbidden _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 404 _ Account Not Found _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 500 _ Unknown Error _ Response Body", backRoute: "/Get sweeping settings" },
- 
+  { name: "Create payment refund_ Path  Params", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Body  Params", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Headers", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_Responses", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Responses_202 Refund", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund _ Responses_400 Invalid Parameters", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Responses_401 Unauthenticated", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Responses_403 Forbidden", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund _ Responses 404 Payment ID Not Found", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Responses 409  Idempotency-Key Concurrency Conflict", backRoute: "/payments-create-payment-refund" },
+  { name: "Create payment refund_ Responses_422 Idempotency-Key Reuse", backRoute: "/payments-create-payment-refund" },
 ]
+
 const toPascalCase = (str) =>
   str
     .replace(/[^a-zA-Z0-9]+/g, " ")

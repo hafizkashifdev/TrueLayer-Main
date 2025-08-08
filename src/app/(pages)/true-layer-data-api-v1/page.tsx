@@ -8,7 +8,7 @@ import {
 } from "@/assets";
 
 const cardsData = [
-  { key: '1', title: 'Meta', href: '/trure-layer-meta', icon: DATAAPIV1Image1 },
+  { key: '1', title: 'Meta', href: '/meta-main', icon: DATAAPIV1Image1 },
   { key: '2', title: 'Accounts', href: '/true-layer-accounts', icon: DATAAPIV1Image2 },
   { key: '3', title: 'Cards', href: '/true-layer-accounts-cards', icon: DATAAPIV1Image3 },
   { key: '4', title: 'Batch', href: '/batch', icon: DATAAPIV1Image4 },
