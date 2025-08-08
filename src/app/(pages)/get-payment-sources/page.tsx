@@ -91,7 +91,7 @@ const GetPaymentSourcesImageMap = ({ backRoute = "/merchant-accounts" }) => {
       <Box mb={{ md: 4, sm: 3, xs: 2 }}>
         <CheckboxForm onChange={handleStatusChange} />
       </Box>
-      
+
       {/* Main Image */}
       <Image
         src={GetPaymentSourcesImage}
@@ -122,8 +122,6 @@ const GetPaymentSourcesImageMap = ({ backRoute = "/merchant-accounts" }) => {
           height={toPercentage(area.height, 2473)}
           sx={{
             cursor: "pointer",
-           
-              border: "2px solid black",
           }}
         ></Box>
       ))}
