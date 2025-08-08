@@ -995,3 +995,30 @@ export { default as PaymentsRefundWebhooksPayloadExecutedImage } from "./Payment
 export { default as PaymentsRefundWebhooksPayloadFailedImage } from "./PaymentsRefundWebhooksPayloadFailedImage.svg";
 export { default as PaymentsRefundWebhooksPayloadHeadersImage } from "./PaymentsRefundWebhooksPayloadHeadersImage.svg";
 export { default as PaymentsRefundWebhooksPayloadResponsesImage } from "./PaymentsRefundWebhooksPayloadResponsesImage.svg";
+export { default as PaymentsPaymentWebhooksImage } from "./PaymentsPaymentWebhooksImage.svg";
+
+export { default as PaymentsPaymentWebhooksPayloadImage } from "./PaymentsPaymentWebhooksPayloadImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadAuthorizedImage } from "./PaymentsPaymentWebhooksPayloadAuthorizedImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadExecutedImage } from "./PaymentsPaymentWebhooksPayloadExecutedImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadFailedImage } from "./PaymentsPaymentWebhooksPayloadFailedImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadSettledImage } from "./PaymentsPaymentWebhooksPayloadSettledImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadPaymentCreditableImage } from "./PaymentsPaymentWebhooksPayloadPaymentCreditableImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadSettlementStalledImage } from "./PaymentsPaymentWebhooksPayloadSettlementStalledImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadPaymentDisputedImage } from "./PaymentsPaymentWebhooksPayloadPaymentDisputedImage.svg";
+export { default as PaymentsPaymentWebhooksHeadersImage } from "./PaymentsPaymentWebhooksHeadersImage.svg";
+export { default as PaymentsPaymentWebhooksResponsesImage } from "./PaymentsPaymentWebhooksResponsesImage.svg";
+
+export { default as PaymentsGetPaymentRefundImage } from "./PaymentsGetPaymentRefundImage.svg";
+
+export { default as PaymentsGetPaymentRefundPathParamsImage } from "./PaymentsGetPaymentRefundPathParamsImage.svg";
+export { default as PaymentsGetPaymentRefundResponsesImage } from "./PaymentsGetPaymentRefundResponsesImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentPendingImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentPendingImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentAuthorizedImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentAuthorizedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentExecutedImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentExecutedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentFailedImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentFailedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses401UnauthenticatedImage } from "./PaymentsGetPaymentRefundResponses401UnauthenticatedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses403ForbiddenImage } from "./PaymentsGetPaymentRefundResponses403ForbiddenImage.svg";
+export { default as PaymentsGetPaymentRefundResponses404RefundNotFoundImage } from "./PaymentsGetPaymentRefundResponses404RefundNotFoundImage.svg";
+export { default as PaymentsGetPaymentRefundResponses500UnknownErrorImage } from "./PaymentsGetPaymentRefundResponses500UnknownErrorImage.svg";
+export { default as PaymentsGetPaymentRefundsImage } from "./PaymentsGetPaymentRefundsImage.svg";
