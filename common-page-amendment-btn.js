@@ -9,30 +9,35 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const pages = [
  
   {
-    title: "Get merchant account Sweeping Responses ",
-    ButtonRoute: "get-merchant-account-main",
+    title: "Get payment sources 1",
+    ButtonRoute: "/get-payment-sources",
+  },
+  {
+    title: "Get payment sources Responses",
+    ButtonRoute: "/get-payment-sources",
+  },
+  {
+    title: "User external account payment 200_ sources _ Response Body",
+    ButtonRoute: "/get-payment-sources",
+  },
+  {
+    title: "Get payment sources 401_ unauthenticated _ Response Body",
+    ButtonRoute: "/get-payment-sources",
+  },
+  {
+    title: "Get payment sources 403 _ Forbidden _ Response Body",
+    ButtonRoute: "/get-payment-sources",
+  },
+  {
+    title: "Get payment sources 404 _ Account Not Found _ Response Body",
+    ButtonRoute: "/get-payment-sources",
+  },
+  {
+    title: "Get payment sources 500_Unknown Error _ Response Body",
+    ButtonRoute: "/get-payment-sources",
   },
   
-  {
-    title: "Get merchant account 400 Sweeping _ Unauthenticated _ Response Body ",
-    ButtonRoute: "get-merchant-account-main",
-  },
-  {
-    title: "Get merchant account 401 Sweeping _ Unauthenticated _ Response Body ",
-    ButtonRoute: "get-merchant-account-main",
-  },
-  {
-    title: "Get merchant account 403 Sweeping _ Forbidden _ Response Body ",
-    ButtonRoute: "get-merchant-account-main",
-  },
-  {
-    title: "Get merchant account 404 Sweeping _ Account Not Found _ Response Body",
-    ButtonRoute: "get-merchant-account-main",
-  },
-  {
-    title: "Get merchant account 500 Sweeping _ Unknown Error _ Response Body",
-    ButtonRoute: "get-merchant-account-main",
-  },
+ 
 ];
 
 // Convert to PascalCase
