@@ -6,14 +6,9 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "payments-refund-webhooks-payload-1", backRoute: "/payments-refund-webhooks" },
-  { name: "payments-refund-webhooks-payload-executed", backRoute: "/payments-refund-webhooks" },
-  { name: "payments-refund-webhooks-payload-failed", backRoute: "/payments-refund-webhooks" },
-  { name: "payments-refund-webhooks-payload-headers", backRoute: "/payments-refund-webhooks" },
-  { name: "payments-refund-webhooks-payload-responses", backRoute: "/payments-refund-webhooks" },
-]
-
-
+  { name: "constraints Get mandate constraints", backRoute: "/mandates-get-mandate-constraints" },
+  { name: "constraints Responses", backRoute: "/mandates-get-mandate-constraints" },
+];
 
 const toPascalCase = (str) =>
   str
