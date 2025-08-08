@@ -1360,3 +1360,4 @@ export { default as PaymentsGetPaymentsRefundResponses401UnauthenticatedImage } 
 export { default as PaymentsGetPaymentsRefundResponses403ForbiddenImage } from "./PaymentsGetPaymentsRefundResponses403ForbiddenImage.svg";
 export { default as PaymentsGetPaymentsRefundResponses404RefundNotFoundImage } from "./PaymentsGetPaymentsRefundResponses404RefundNotFoundImage.svg";
 export { default as PaymentsGetPaymentsRefundResponses500UnknownErrorImage } from "./PaymentsGetPaymentsRefundResponses500UnknownErrorImage.svg";
+export { default as DebugIdImage } from "./DebugIdImage.svg";
