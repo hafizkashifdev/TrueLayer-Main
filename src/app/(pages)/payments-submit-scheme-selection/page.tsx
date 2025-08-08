@@ -6,120 +6,120 @@ import InteractiveImagePage from "@/features/interactive-image-page";
 const areas = [
   {
     id: 1,
-    title: 'Submit form_ Path Params',
-    href: '/submit-form-path-params',
-    x: 43.28,
-    y: 110.80,
+    title: 'Submit scheme selection_ Path Params',
+    href: '/submit-scheme-selection-path-params',
+    x: 45.01,
+    y: 114.26,
     width: 275.27,
-    height: 50.21
+    height: 51.94
   },
   {
     id: 2,
-    title: 'Submit form_ Body Params',
-    href: '/submit-form-body-params',
-    x: 595.55,
-    y: 109.07,
-    width: 280.46,
+    title: 'Submit scheme selection_ Body Params',
+    href: '/submit-scheme-selection-body-params',
+    x: 597.28,
+    y: 114.26,
+    width: 289.12,
     height: 51.94
   },
   {
     id: 3,
-    title: 'Submit form_ Headers',
-    href: '/submit-form-headers',
-    x: 1147.81,
-    y: 114.26,
-    width: 204.29,
-    height: 48.47
+    title: 'Submit scheme selection_ Headers',
+    href: '/submit-scheme-selection-headers',
+    x: 1151.28,
+    y: 110.80,
+    width: 180.05,
+    height: 60.59
   },
   {
     id: 4,
-    title: 'Submit form_Responses',
-    href: '/submit-form-responses',
+    title: 'Submit scheme selection_Responses',
+    href: '/submit-scheme-selection-responses',
     x: 34.62,
-    y: 431.08,
-    width: 207.75,
-    height: 51.94
+    y: 432.81,
+    width: 214.67,
+    height: 50.21
   },
   {
     id: 5,
-    title: 'Submit form_ Responses_200 Payment',
-    href: '/submit-form-responses-200-payment',
-    x: 57.13,
-    y: 522.84,
-    width: 277.00,
-    height: 48.47
+    title: 'Submit scheme selection_ Responses_200 Payment',
+    href: '/submit-scheme-selection-responses-200-payment',
+    x: 50.21,
+    y: 519.37,
+    width: 282.19,
+    height: 53.67
   },
   {
     id: 6,
-    title: 'Submit form_ Responses_400 Invalid Request',
-    href: '/submit-form-responses-400-invalid-request',
-    x: 55.40,
-    y: 1026.63,
-    width: 375.68,
-    height: 46.74
-  },
-  {
-    id: 7,
-    title: 'Submit form_ Responses_401 Unauthenticated',
-    href: '/submit-form-responses-401-unauthenticated',
-    x: 55.40,
-    y: 1807.42,
-    width: 367.02,
-    height: 53.67
-  },
-  {
-    id: 8,
-    title: 'Submit form_ Responses_403 Forbidden',
-    href: '/submit-form-responses-403-forbidden',
-    x: 53.67,
-    y: 2290.44,
-    width: 297.77,
+    title: 'Submit scheme selection_ Responses_400 Invalid Request',
+    href: '/submit-scheme-selection-responses-400-invalid-request',
+    x: 57.13,
+    y: 1019.70,
+    width: 351.44,
     height: 57.13
   },
   {
+    id: 7,
+    title: 'Submit scheme selection_ Responses_401 Unauthenticated',
+    href: '/submit-scheme-selection-responses-401-unauthenticated',
+    x: 55.40,
+    y: 1807.42,
+    width: 380.87,
+    height: 57.13
+  },
+  {
+    id: 8,
+    title: 'Submit scheme selection_ Responses_403 Forbidden',
+    href: '/submit-scheme-selection-responses-403-forbidden',
+    x: 46.74,
+    y: 2290.44,
+    width: 297.77,
+    height: 60.59
+  },
+  {
     id: 9,
-    title: 'Submit form_ Responses 404 Payment Not Found',
-    href: '/submit-form-responses-404-payment-not-found',
-    x: 50.21,
-    y: 2789.03,
-    width: 410.30,
-    height: 53.67
+    title: 'Submit scheme selection_ Responses 404 Payment Not Found',
+    href: '/submit-scheme-selection-responses-404-payment-not-found',
+    x: 57.13,
+    y: 2778.65,
+    width: 439.74,
+    height: 57.13
   },
   {
     id: 10,
-    title: 'Submit form_ Responses 409 Conflict',
-    href: '/submit-form-responses-409-conflict',
+    title: 'Submit scheme selection_ Responses 409 Conflict',
+    href: '/submit-scheme-selection-responses-409-conflict',
     x: 53.67,
-    y: 3266.86,
-    width: 257.96,
-    height: 58.86
+    y: 3258.20,
+    width: 259.69,
+    height: 62.32
   },
   {
     id: 11,
-    title: 'Submit form_ Responses_422 Idempotency-Key Reuse',
-    href: '/submit-form-responses-422-idempotency-key-reuse',
-    x: 50.21,
-    y: 4056.30,
-    width: 465.70,
-    height: 58.86
+    title: 'Submit scheme selection_ Responses_422 Idempotency-Key Reuse',
+    href: '/submit-scheme-selection-responses-422-idempotency-key-reuse',
+    x: 51.94,
+    y: 4051.11,
+    width: 502.06,
+    height: 55.40
   },
   {
     id: 12,
-    title: 'Submit form_ Responses_500 Unknown Error',
-    href: '/submit-form-responses-500-unknown-error',
+    title: 'Submit scheme selection_ Responses_500 Unknown Error',
+    href: '/submit-scheme-selection-responses-500-unknown-error',
     x: 55.40,
-    y: 4541.05,
-    width: 332.40,
-    height: 60.59
+    y: 4535.86,
+    width: 351.44,
+    height: 57.13
   },
   {
     id: 13,
-    title: 'Submit form_ Responses_502 Provider Error',
-    href: '/submit-form-responses-502-provider-error',
-    x: 46.74,
-    y: 5013.68,
-    width: 337.59,
-    height: 60.59
+    title: 'POST',
+    href: '/https://api.truelayer-sandbox.com/v3/payments/{id}/authorization-flow/actions/scheme-selection',
+    x: 1282.85,
+    y: 25.97,
+    width: 432.81,
+    height: 38.09
   }
 ];
 
@@ -130,7 +130,7 @@ const PaymentsSubmitSchemeSelectionPage = () => {
       backRoute={'/true-layer-payments-api-v3-payments'}
       pageTitle={'Submit scheme selection'}
       areas={areas}
-      imageHeight={5488}
+      imageHeight={5022}
       imageWidth={1823}
     />
   );

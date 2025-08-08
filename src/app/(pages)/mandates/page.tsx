@@ -15,10 +15,10 @@ import {
 
 const cardsData = [
   { key: '1', title: 'Create mandate', href: '/mandates-create-mandate', icon: MandatesImage1 },
-  { key: '2', title: 'List mandates', href: '/mandates-list-mandates', icon: MandatesImage2 },
+  { key: '2', title: 'List mandates', href: '/mandates-list-mandate', icon: MandatesImage2 },
   { key: '3', title: 'Get mandate', href: '/mandates-get-mandate', icon: MandatesImage3 },
   { key: '4', title: 'Start authorization flow', href: '/mandates-start-authorization-flow', icon: MandatesImage4 },
-  { key: '5', title: 'Submit consent', href: '/mandates-Submit consent', icon: MandatesImage5 },
+  { key: '5', title: 'Submit consent', href: '/mandates-submit-consent', icon: MandatesImage5 },
   { key: '6', title: 'Submit provider selection', href: '/mandates-submit-provider-selection', icon: MandatesImage6 },
   { key: '7', title: 'Revoke mandate', href: '/mandates-revoke-mandate', icon: MandatesImage7 },
   { key: '8', title: 'Confirm funds', href: '/mandates-confirm-funds', icon: MandatesImage8 },

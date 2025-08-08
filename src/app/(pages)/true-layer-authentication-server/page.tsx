@@ -6,7 +6,7 @@ import {
 } from "@/assets";
 
 const cardsData = [
-  { key: '1', title: 'Access tokens', href: '/authenticatio-server-access-token', icon: AuthenticationServerImage1 },
+  { key: '1', title: 'Access tokens', href: '/authentication-server-access-token', icon: AuthenticationServerImage1 },
   { key: '2', title: 'Debug ID', href: '/debug-id', icon: AuthenticationServerImage2 },
 ]
 
