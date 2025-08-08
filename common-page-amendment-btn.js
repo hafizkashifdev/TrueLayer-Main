@@ -8,8 +8,45 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // ✅ Corrected: Use "title" instead of "tile"
 const pages = [
   {
-    title: "FCA Overview",
-    ButtonRoute: " Removal to and from Scotland AC",
+    title: "Get merchant account ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Get merchant account Responses ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Merchant Account _ Response Body_200",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Sort Code + Account Number ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  
+  {
+    title: "Get merchant account IBN",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Get merchant account NRB ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Get merchant account 401 _ Unauthenticated _ Response Body ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Get merchant account 403 _ Forbidden _ Response Body ",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Get merchant account 404 _ Account Not Found _ Response Body",
+    ButtonRoute: "get-merchant-account-main",
+  },
+  {
+    title: "Get merchant account 500 _ Unknown Error _ Response Body",
+    ButtonRoute: "get-merchant-account-main",
   },
 ];
 
@@ -51,7 +88,7 @@ for (const page of pages) {
 
   if (!kebabBase || !pascal) {
     console.log(
-      `[SKIP] Could not generate valid names for title: '${title}'. Skipping.`,
+      `[SKIP] Could not generate valid names for title: '${title}'. Skipping.`
     );
     continue;
   }
@@ -73,14 +110,14 @@ for (const page of pages) {
 
   if (dirSuffix >= maxTries) {
     console.log(
-      `[ERROR] Too many duplicate directories for '${title}'. Skipping.`,
+      `[ERROR] Too many duplicate directories for '${title}'. Skipping.`
     );
     continue;
   }
 
   if (finalKebab !== kebabBase) {
     console.log(
-      `Directory for page '${title}' already exists. Created: ${finalKebab}`,
+      `Directory for page '${title}' already exists. Created: ${finalKebab}`
     );
   }
 
@@ -140,7 +177,7 @@ export default ${pascal}Page;
       if (indexContent.includes(imageExport.trim())) {
         shouldWriteExport = false;
         console.log(
-          `Export for image '${imageName}' already exists in index.tsx. Skipping export.`,
+          `Export for image '${imageName}' already exists in index.tsx. Skipping export.`
         );
       }
     } catch (err) {

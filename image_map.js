@@ -1,3 +1,4 @@
+"us client";
 const fs = require("fs");
 const path = require("path");
 
@@ -6,7 +7,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "AQSE Overview", backRoute: "/" },
+  { name: "payments-get-payment-refunds", backRoute: "/true-layer-payments-api-v3-payments" },
 ];
 
 const toPascalCase = (str) =>

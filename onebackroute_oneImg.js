@@ -6,7 +6,17 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "cross-sector-inspections", title:"Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
+  { name: "payments-get-payment-refund-Path-Params", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Pending", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Authorized", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Executed", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Failed", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-401 Unauthenticated", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-403 Forbidden", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses 404 Refund Not Found", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-500  Unknown Error", backRoute: "/payments-get-payment-refund" },
 ];
 
 const toPascalCase = (str) =>
