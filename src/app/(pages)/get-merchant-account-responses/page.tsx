@@ -1,6 +1,5 @@
 import { GetMerchantAccountResponsesImage } from "@/assets";
 import { CommonPage } from "@/components";
-
 import React from "react";
 
 const GetMerchantAccountResponsesPage = () => {

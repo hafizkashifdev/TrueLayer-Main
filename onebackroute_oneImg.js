@@ -6,10 +6,15 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "constraints Get mandate constraints", backRoute: "/mandates-get-mandate-constraints" },
-  { name: "constraints Responses", backRoute: "/mandates-get-mandate-constraints" },
-];
-
+  { name: "Get sweeping settings 1", backRoute: "/Get sweeping settings" },
+  { name: "Get sweeping settings Responses", backRoute: "/Get sweeping settings" },
+  { name: "200_ Automatic sweeping settings _ Response Body", backRoute: "/Get sweeping settings" },
+  { name: "Get sweeping settings 401_ unauthenticated _ Response Body", backRoute: "/Get sweeping settings" },
+  { name: "Get sweeping settings 403 _ Forbidden _ Response Body", backRoute: "/Get sweeping settings" },
+  { name: "Get sweeping settings 404 _ Account Not Found _ Response Body", backRoute: "/Get sweeping settings" },
+  { name: "Get sweeping settings 500 _ Unknown Error _ Response Body", backRoute: "/Get sweeping settings" },
+ 
+]
 const toPascalCase = (str) =>
   str
     .replace(/[^a-zA-Z0-9]+/g, " ")

@@ -1,6 +1,5 @@
 import { GetMerchantAccount404AccountNotFoundResponseBodyImage } from "@/assets";
 import { CommonPage } from "@/components";
-
 import React from "react";
 
 const GetMerchantAccount404AccountNotFoundResponseBodyPage = () => {

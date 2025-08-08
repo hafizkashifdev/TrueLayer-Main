@@ -20,12 +20,12 @@ const areas = [
     title: "signup-user-data-get-user-data-by-payment",
   },
   {
-    href: "/user-data-main-2",
+    href: "https://api.truelayer.com/signup-plus/payments",
     x: 1333.6609686609686,
     y: 15.94017094017094,
     width: 456.951566951567,
     height: 69.07407407407408,
-    title: "user-data-main-2",
+    title: "https://api.truelayer.com/signup-plus/payments",
   },
   {
     href: "/signup-user-data-query-params",
@@ -320,7 +320,31 @@ const SignupUserDataPage = () => {
             style={{ width: "100%", height: "auto" }}
           />
 
-          {areas.map((area, index) => (
+   {areas.map((area, index) => (
+            <Tooltip key={index} title={area.title} arrow>
+              <Box
+                component={area.href.startsWith('https://') ? 'a' : Link}
+                href={area.href}
+                {...(area.href.startsWith('https://') ? {
+                  target: '_blank',
+                  rel: 'noopener noreferrer'
+                } : {})}
+                sx={{
+                  position: "absolute",
+                  left: `${(area.x / IMG_WIDTH) * 100}%`,
+                  top: `${(area.y / IMG_HEIGHT) * 100}%`,
+                  width: `${(area.width / IMG_WIDTH) * 100}%`,
+                  height: `${(area.height / IMG_HEIGHT) * 100}%`,
+                  cursor: "pointer",
+                  "&:hover": {
+                    outline: "2px solid white",
+                    opacity: 0.2,
+                  },
+                }}
+              />
+            </Tooltip>
+          ))}
+          {/* {areas.map((area, index) => (
             <Tooltip key={index} title={area.title} arrow>
               <Box
                 component={Link}
@@ -339,7 +363,7 @@ const SignupUserDataPage = () => {
                 }}
               />
             </Tooltip>
-          ))}
+          ))} */}
         </Box>
       </Box>
     </Box>

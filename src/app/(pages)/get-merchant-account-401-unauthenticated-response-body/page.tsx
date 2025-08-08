@@ -1,6 +1,5 @@
 import { GetMerchantAccount401UnauthenticatedResponseBodyImage } from "@/assets";
 import { CommonPage } from "@/components";
-
 import React from "react";
 
 const GetMerchantAccount401UnauthenticatedResponseBodyPage = () => {

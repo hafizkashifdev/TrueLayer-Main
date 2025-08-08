@@ -1,6 +1,5 @@
 import { GetMerchantAccount500UnknownErrorResponseBodyImage } from "@/assets";
 import { CommonPage } from "@/components";
-
 import React from "react";
 
 const GetMerchantAccount500UnknownErrorResponseBodyPage = () => {
