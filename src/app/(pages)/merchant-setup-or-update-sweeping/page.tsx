@@ -29,7 +29,7 @@ const MerchantSetupOrUpdateSweeping = () => {
     },
     {
       id: 3,
-      href: '/get-merchant-account-responses',
+      href: '/get-merchant-account-sweeping-responses',
       title: '1.1',
       x: 50.894586894586894,
       y: 379.0769230769231,
@@ -38,7 +38,7 @@ const MerchantSetupOrUpdateSweeping = () => {
     },
     {
       id: 4,
-      href: '/get-merchant-account-400-invalid-parameter-response-body',
+      href: '/get-merchant-account-400-sweeping-unauthenticated-response-body',
       title: '1.1.1',
       x: 91.25925925925925,
       y: 472.0911680911681,
@@ -47,7 +47,7 @@ const MerchantSetupOrUpdateSweeping = () => {
     },
     {
       id: 5,
-      href: '/get-merchant-account-401-unauthenticated-response-body',
+      href: '/get-merchant-account-401-sweeping-unauthenticated-response-body',
       title: '1.1.2',
       x: 85.99430199430199,
       y: 765.1737891737891,
@@ -56,7 +56,7 @@ const MerchantSetupOrUpdateSweeping = () => {
     },
     {
       id: 6,
-      href: '/get-merchant-account-403-forbidden-response-body',
+      href: '/get-merchant-account-403-sweeping-forbidden-response-body',
       title: '1.1.3',
       x: 87.74928774928775,
       y: 1068.7863247863247,
@@ -65,7 +65,7 @@ const MerchantSetupOrUpdateSweeping = () => {
     },
     {
       id: 7,
-      href: '/get-merchant-account-404-account-not-found-response-body',
+      href: '/get-merchant-account-404-sweeping-account-not-found-response-body',
       title: '1.1.4',
       x: 89.5042735042735,
       y: 1374.1538461538462,
@@ -74,7 +74,7 @@ const MerchantSetupOrUpdateSweeping = () => {
     },
     {
       id: 8,
-      href: '/get-merchant-account-500-unknown-error-response-body',
+      href: '/get-merchant-account-500-sweeping-unknown-error-response-body',
       title: '1.1.5',
       x: 84.23931623931624,
       y: 1681.2763532763533,

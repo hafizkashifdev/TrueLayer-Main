@@ -86,7 +86,7 @@ export const merchantAccountAreas: InteractiveArea[] = [
   },
   {
     id: 'forbidden-response-403',
-    href: '#',
+    href: '/get-merchant-account-403-forbidden-response-body',
     title: '',
     x: 80.72934472934473,
     y: 2070.3931623931624,

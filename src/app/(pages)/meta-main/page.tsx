@@ -8,7 +8,7 @@ import { CommonBackIcon } from "@/assets/common-assets";
 import Link from "next/link";
 
 const MetaMainPage = ({
-    backRoute = "/hubspot-commerce",
+    backRoute = "/true-layer-data-api-v1",
 }) => {
     const areas = [
         {

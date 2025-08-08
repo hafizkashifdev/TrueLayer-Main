@@ -8,7 +8,7 @@ import { CommonBackIcon } from "@/assets/common-assets";
 import Link from "next/link";
 
 const AccountVerificationPage = ({
-    backRoute = "/hubspot-commerce",
+    backRoute = "/",
 }) => {
     const areas = [
         {
