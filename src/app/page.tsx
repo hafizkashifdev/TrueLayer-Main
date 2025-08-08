@@ -20,7 +20,7 @@ const cardsData = [
   { key: '5', title: 'Connections API', href: '/connection-api', icon: TrueLayerHome5 },
   { key: '6', title: 'Client Tracking API', href: '/client-tracking-api', icon: TrueLayerHome6 },
   { key: '7', title: 'Signup+', href: '/true-layer-signup', icon: TrueLayerHome7 },
-  { key: '8', title: 'Verification API', href: '/verification-api', icon: TrueLayerHome8 },
+  { key: '8', title: 'Verification API', href: '/account-verification', icon: TrueLayerHome8 },
   { key: '9', title: 'Legacy - Paym ents API', href: '/legacy-payment-api', icon: TrueLayerHome9 },
   { key: '10', title: 'Legacy - PayDirect API', href: '/legacy-pay-direct-api', icon: TrueLayerHome10 },
 ]
