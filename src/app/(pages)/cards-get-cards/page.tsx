@@ -13,7 +13,7 @@ const CardGetCardsPage = () => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
-    router.push("/trure-layer-accounts-cards");
+    router.push("/true-layer-accounts-cards");
   }, [router]);
 
   return (

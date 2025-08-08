@@ -382,7 +382,7 @@ const AccountsGetStandingOrdersPage = () => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
-    router.push("/trure-layer-accounts");
+    router.push("/true-layer-accounts");
   }, [router]);
 
   return (
