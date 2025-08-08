@@ -5,54 +5,8 @@ const baseDir = path.join(__dirname, "src", "app", "(pages)");
 const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
-// const pages = [
-//   { name: "cross-sector-inspections", title:"Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
-// ];
-
-// const pages = [
-//   { name: "accounts-get-direct-debits-responses-503-service-unavailable", title: "503(Service Unavailable)" , backRoute: "/accounts-get-direct-debits"},
-// ];
-
-// pages.ts
- const pages = [
-  // { name: "card-1-get-cards", title: "Get cards", backRoute: "/cards-get-cards" },
-  // { name: "card-1-1-query-params", title: "Query Params", backRoute: "/cards-get-cards" },
-  // { name: "card-1-2-headers", title: "Headers", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-response", title: "Response", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-1-200-ok", title: "200(OK)", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-1-1-response-body", title: "Response Body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-1-1-1-results", title: "Results", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-1-1-1-status", title: "Status", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-1-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-2--202-accepted", title: "202 Accepted", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-2-1-response-body", title: "Response Body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-2-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-3-401-unauthorized", title: "401 unauthorized", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-3-1-response-body", title: "Response Body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-3-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-4-403-access-denied", title: "Access Denied", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-4-1-response-body", title: "Response Body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-4-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-5-404-not-found", title: "404 not found", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-5-1-response-body", title: "Response Body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-5-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-6-429-rate-limit-exceeded", title: "429 Rate Limit Exceeded", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-6-1-response-body", title: "Response Body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-6-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-7-500-internal-server-error", title: "500 Internal server error", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-7-1-response-body", title: "Response body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-7-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-8-501-not-implemented", title: "501 not implemented", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-8-1-response-body", title: "Response body", backRoute: "/cards-get-cards" },
-  // { name: "card-1-3-8-2-header", title: "Header", backRoute: "/cards-get-cards" },
-
-  
-  { name: "card-1-3-9-503-service-unavailable", title: "503 service unavailable", backRoute: "/cards-get-cards" },
-  { name: "card-1-3-9-1-response-body", title: "Response body", backRoute: "/cards-get-cards" },
-  { name: "card-1-3-9-2-header", title: "Header", backRoute: "/cards-get-cards" },
-  { name: "card-1-3-10-504-gateway-timeout", title: "504 gateway timeout", backRoute: "/cards-get-cards" },
-  { name: "card-1-3-10-1-response-body", title: "Response body", backRoute: "/cards-get-cards" },
-  { name: "card-1-3-10-2-header", title: "Header", backRoute: "/cards-get-cards" },
+const pages = [
+  { name: "cross-sector-inspections", title:"Cross-Sector Inspections", backRoute: "/ Care Quality Commission" },
 ];
 
 const toPascalCase = (str) =>
