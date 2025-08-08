@@ -1,15 +1,14 @@
 import { GetPayoutResponses200PayoutPendingImage } from "@/assets";
+import { CommonPage } from "@/components";
 
-import AmendmentComparison from "@/components/amendment-comparison";
 import React from "react";
 
 const GetPayoutResponses200PayoutPendingPage = () => {
   return (
-    <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health  Act 1983 / Part V / Get Payout _ Responses_200 Payout_Pending`}
+    <CommonPage
+      pageTitle={` Get Payout _ Responses_200 Payout_Pending`}
       src={GetPayoutResponses200PayoutPendingImage}
-      backRoute="/"
-      amendmentButtonRoute="/get-payout"
+      backRoute="/get-payout"
     />
   );
 };

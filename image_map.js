@@ -7,7 +7,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Cards Get card", backRoute: "/trueLayer_accounts_cards" },
+  { name: "legacy-pay-direct-api-withdrawal", backRoute: "/legacy-pay-direct-api" },
 ];
 
 const toPascalCase = (str) =>

@@ -12,6 +12,7 @@ interface AreaItem {
   href: string;
   coords: string;
   shape: string;
+  target?: string;
 }
 
 interface CommonPageProps {
@@ -189,16 +190,23 @@ const CommonImgMapPage: React.FC<CommonPageProps> = ({
               {areas.map((area, index) => (
                 <area
                   key={index}
-                  target={target}
                   alt={area.alt}
                   title={area.title}
-                  href={area.href}
                   coords={area.coords}
                   shape={area.shape}
+                  target={area.target}
+                  href={area.href}
+                  onClick={(e) => {
+                    if (!area.target || area.target === "_self") {
+                      e.preventDefault(); 
+                      router.push(area.href); 
+                    }
+                  }}
                 />
               ))}
             </map>
           )}
+
         </>
       )}
     </Box>

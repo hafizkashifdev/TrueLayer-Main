@@ -71,7 +71,7 @@ const AuthenticationServerAccessTokenPage = () => {
     <CommonImgMapPage
       pageTitle={`Authentication Server_Access Token`}
       image={AuthenticationServerAccessTokenImage}
-      backRoute="/truelayer-authentication-server"
+      backRoute="/true-layer-authentication-server"
       areas={areas}
     />
   );
