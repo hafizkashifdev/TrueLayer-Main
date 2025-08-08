@@ -12,7 +12,7 @@ import { CommonBackIcon } from "@/assets/common-assets";
 interface CommonPageProps {
   backRoute?: string;
 }
-const CreatePayoutImageMap = ({ backRoute = "/get-payout" }) => {
+const CreatePayoutImageMap = ({ backRoute = "/payouts" }) => {
   const router = useRouter();
 
   const handleClick = (

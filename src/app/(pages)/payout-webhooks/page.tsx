@@ -7,7 +7,6 @@ import { Stack, Typography } from "@mui/material";
 import { CommonBackIcon } from "@/assets/common-assets";
 
 // Import your image
-import SectionImage from "@/assets/Section (4).svg";
 import { PayoutWebhooksImage } from "@/assets";
 import { CheckboxForm } from "@/components/checkbox-form";
 
@@ -65,7 +64,7 @@ const payoutWebhookAreas = [
   },
 ];
 
-const PayoutWebhooksImageMap = ({ backRoute = "/get-payout" }) => {
+const PayoutWebhooksImageMap = ({ backRoute = "/payouts" }) => {
   const router = useRouter();
   const [selectedArea, setSelectedArea] = useState<number | null>(7); // Initialize with the selected area
   const [selectedStatus, setSelectedStatus] = useState<string>("");

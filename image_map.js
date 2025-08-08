@@ -7,7 +7,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "payments-refund-webhooks", backRoute: "/true-layer-payments-api-v3-payments" },
+  { name: "payments-get-payment-refunds", backRoute: "/true-layer-payments-api-v3-payments" },
 ];
 
 const toPascalCase = (str) =>

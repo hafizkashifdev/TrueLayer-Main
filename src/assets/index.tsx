@@ -975,6 +975,25 @@ export { default as PayoutWebhooksPayloadExecutedImage } from "./PayoutWebhooksP
 export { default as PayoutWebhooksPayloadFailedImage } from "./PayoutWebhooksPayloadFailedImage.svg";
 export { default as PayoutWebhooksHeadersImage } from "./PayoutWebhooksHeadersImage.svg";
 export { default as PayoutWebhooksResponse200Image } from "./PayoutWebhooksResponse200Image.svg";
+
+export { default as MerchantListMerchantAccountsImage } from "./MerchantListMerchantAccountsImage.svg";
+export { default as ListMerchantAccountsImage } from "./ListMerchantAccountsImage.svg";
+export { default as ListMerchantAccountsResponsesImage } from "./ListMerchantAccountsResponsesImage.svg";
+export { default as MerchantAccountResponseBodyImage200 } from "./MerchantAccountResponseBodyImage200.svg";
+export { default as SortCodeAccountNumberImage } from "./SortCodeAccountNumberImage.svg";
+export { default as ListMerchantAccountsIbnImage } from "./ListMerchantAccountsIbnImage.svg";
+export { default as ListMerchantAccountsNrbImage } from "./ListMerchantAccountsNrbImage.svg";
+export { default as UnauthenticatedResponseBody401Image } from "./UnauthenticatedResponseBody401Image.svg";
+export { default as ForbiddenResponseBody403Image } from "./ForbiddenResponseBody403Image.svg";
+export { default as UnknownErrorResponseBody400Image } from "./UnknownErrorResponseBody400Image.svg";
+
+
+export { default as GetMerchantAccountMainImage } from "./GetMerchantAccountMainImage.svg";
+export { default as GetMerchantAccountImage } from "./GetMerchantAccountImage.svg";
+export { default as GetMerchantAccountResponsesImage } from "./GetMerchantAccountResponsesImage.svg";
+export { default as MerchantAccountResponseBody200Image } from "./MerchantAccountResponseBody200Image.svg";
+export { default as GetMerchantAccountIbnImage } from "./GetMerchantAccountIbnImage.svg";
+export { default as GetMerchantAccountNrbImage } from "./GetMerchantAccountNrbImage.svg";
 export { default as SubmitSchemeSelectionPathParamsImage } from "./SubmitSchemeSelectionPathParamsImage.svg";
 export { default as SubmitSchemeSelectionBodyParamsImage } from "./SubmitSchemeSelectionBodyParamsImage.svg";
 export { default as SubmitSchemeSelectionHeadersImage } from "./SubmitSchemeSelectionHeadersImage.svg";
@@ -1033,9 +1052,35 @@ export { default as PaymentsRefundWebhooksPayloadExecutedImage } from "./Payment
 export { default as PaymentsRefundWebhooksPayloadFailedImage } from "./PaymentsRefundWebhooksPayloadFailedImage.svg";
 export { default as PaymentsRefundWebhooksPayloadHeadersImage } from "./PaymentsRefundWebhooksPayloadHeadersImage.svg";
 export { default as PaymentsRefundWebhooksPayloadResponsesImage } from "./PaymentsRefundWebhooksPayloadResponsesImage.svg";
+export { default as PaymentsPaymentWebhooksImage } from "./PaymentsPaymentWebhooksImage.svg";
+
+export { default as PaymentsPaymentWebhooksPayloadImage } from "./PaymentsPaymentWebhooksPayloadImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadAuthorizedImage } from "./PaymentsPaymentWebhooksPayloadAuthorizedImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadExecutedImage } from "./PaymentsPaymentWebhooksPayloadExecutedImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadFailedImage } from "./PaymentsPaymentWebhooksPayloadFailedImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadSettledImage } from "./PaymentsPaymentWebhooksPayloadSettledImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadPaymentCreditableImage } from "./PaymentsPaymentWebhooksPayloadPaymentCreditableImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadSettlementStalledImage } from "./PaymentsPaymentWebhooksPayloadSettlementStalledImage.svg";
+export { default as PaymentsPaymentWebhooksPayloadPaymentDisputedImage } from "./PaymentsPaymentWebhooksPayloadPaymentDisputedImage.svg";
+export { default as PaymentsPaymentWebhooksHeadersImage } from "./PaymentsPaymentWebhooksHeadersImage.svg";
+export { default as PaymentsPaymentWebhooksResponsesImage } from "./PaymentsPaymentWebhooksResponsesImage.svg";
+
+export { default as PaymentsGetPaymentRefundImage } from "./PaymentsGetPaymentRefundImage.svg";
+
+export { default as PaymentsGetPaymentRefundPathParamsImage } from "./PaymentsGetPaymentRefundPathParamsImage.svg";
+export { default as PaymentsGetPaymentRefundResponsesImage } from "./PaymentsGetPaymentRefundResponsesImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentPendingImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentPendingImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentAuthorizedImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentAuthorizedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentExecutedImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentExecutedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses200RefundsOfThePaymentFailedImage } from "./PaymentsGetPaymentRefundResponses200RefundsOfThePaymentFailedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses401UnauthenticatedImage } from "./PaymentsGetPaymentRefundResponses401UnauthenticatedImage.svg";
+export { default as PaymentsGetPaymentRefundResponses403ForbiddenImage } from "./PaymentsGetPaymentRefundResponses403ForbiddenImage.svg";
+export { default as PaymentsGetPaymentRefundResponses404RefundNotFoundImage } from "./PaymentsGetPaymentRefundResponses404RefundNotFoundImage.svg";
+export { default as PaymentsGetPaymentRefundResponses500UnknownErrorImage } from "./PaymentsGetPaymentRefundResponses500UnknownErrorImage.svg";
+export { default as PaymentsGetPaymentRefundsImage } from "./PaymentsGetPaymentRefundsImage.svg";
 
 export { default as SetUpOrUpdateSweeping1Image } from "./SetUpOrUpdateSweeping1Image.svg";
-export { default as GetMerchantAccountResponsesImage } from "./GetMerchantAccountResponsesImage.svg";
 export { default as GetMerchantAccount400InvalidParameterResponseBodyImage } from "./GetMerchantAccount400InvalidParameterResponseBodyImage.svg";
 export { default as GetMerchantAccount401UnauthenticatedResponseBodyImage } from "./GetMerchantAccount401UnauthenticatedResponseBodyImage.svg";
 export { default as GetMerchantAccount403ForbiddenResponseBodyImage } from "./GetMerchantAccount403ForbiddenResponseBodyImage.svg";
@@ -1057,3 +1102,29 @@ export { default as GetSweepingSettings403ForbiddenResponseBodyImage } from "./G
 export { default as GetSweepingSettings404AccountNotFoundResponseBodyImage } from "./GetSweepingSettings404AccountNotFoundResponseBodyImage.svg";
 export { default as GetSweepingSettings500UnknownErrorResponseBodyImage } from "./GetSweepingSettings500UnknownErrorResponseBodyImage.svg";
 export { default as MerchantGetSweepingSettingsImage } from "./Merchant Get sweeping settings.svg";
+
+
+export { default as TransactionsGetTransactions1Image } from "./TransactionsGetTransactions1Image.svg";
+export { default as TransactionsResponses2Image } from "./TransactionsResponses2Image.svg";
+export { default as Transactions200TransactionResponseBody3Image } from "./Transactions200TransactionResponseBody3Image.svg";
+export { default as TransactionsMerchantAccountPayment4Image } from "./TransactionsMerchantAccountPayment4Image.svg";
+export { default as TransactionsSettledPaymentSourceObject5Image } from "./TransactionsSettledPaymentSourceObject5Image.svg";
+export { default as TransactionsExternalPayment6Image } from "./TransactionsExternalPayment6Image.svg";
+export { default as TransactionsRemitterObject7Image } from "./TransactionsRemitterObject7Image.svg";
+export { default as TransactionsReturnForObject8Image } from "./TransactionsReturnForObject8Image.svg";
+export { default as TransactionsPendingPayout9Image } from "./TransactionsPendingPayout9Image.svg";
+export { default as TransactionsExternalAccount10Image } from "./TransactionsExternalAccount10Image.svg";
+export { default as TransactionsPaymentSource11Image } from "./TransactionsPaymentSource11Image.svg";
+export { default as TransactionsBusinessAccount12Image } from "./TransactionsBusinessAccount12Image.svg";
+export { default as TransactionsExecutedPayout13Image } from "./TransactionsExecutedPayout13Image.svg";
+export { default as TransactionsExternalAccount14Image } from "./TransactionsExternalAccount14Image.svg";
+export { default as TransactionsPaymentSource15Image } from "./TransactionsPaymentSource15Image.svg";
+export { default as TransactionsBusinessAccount16Image } from "./TransactionsBusinessAccount16Image.svg";
+export { default as TransactionsRefund17Image } from "./TransactionsRefund17Image.svg";
+export { default as TransactionsPaymentSourceObject18Image } from "./TransactionsPaymentSourceObject18Image.svg";
+export { default as Transactions401UnauthenticatedResponseBody19Image } from "./Transactions401UnauthenticatedResponseBody19Image.svg";
+export { default as Transactions403ForbiddenResponseBody20Image } from "./Transactions403ForbiddenResponseBody20Image.svg";
+export { default as Transactions404AccountNotFoundResponseBody21Image } from "./Transactions404AccountNotFoundResponseBody21Image.svg";
+export { default as Transactions500UnknownErrorResponseBody22Image } from "./Transactions500UnknownErrorResponseBody22Image.svg";
+
+export { default as GetTransactionsImage } from "./GetTransactionsImage.svg";

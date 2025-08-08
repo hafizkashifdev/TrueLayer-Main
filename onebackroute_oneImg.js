@@ -6,15 +6,19 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Get sweeping settings 1", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings Responses", backRoute: "/Get sweeping settings" },
-  { name: "200_ Automatic sweeping settings _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 401_ unauthenticated _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 403 _ Forbidden _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 404 _ Account Not Found _ Response Body", backRoute: "/Get sweeping settings" },
-  { name: "Get sweeping settings 500 _ Unknown Error _ Response Body", backRoute: "/Get sweeping settings" },
- 
-]
+  { name: "payments-get-payment-refund-Path-Params", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Pending", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Authorized", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Executed", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-200 Refunds of the Payment-Failed", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-401 Unauthenticated", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-403 Forbidden", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses 404 Refund Not Found", backRoute: "/payments-get-payment-refund" },
+  { name: "payments-get-payment-refund-Responses-500  Unknown Error", backRoute: "/payments-get-payment-refund" },
+];
+
 const toPascalCase = (str) =>
   str
     .replace(/[^a-zA-Z0-9]+/g, " ")

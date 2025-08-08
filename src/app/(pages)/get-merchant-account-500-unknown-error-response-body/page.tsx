@@ -5,9 +5,9 @@ import React from "react";
 const GetMerchantAccount500UnknownErrorResponseBodyPage = () => {
   return (
     <CommonPage
-      pageTitle={`500 _ Unknown Error _ Response Body`}
+      pageTitle={` Get merchant account 500 _ Unknown Error _ Response Body`}
       src={GetMerchantAccount500UnknownErrorResponseBodyImage}
-      backRoute="/merchant-setup-or-update-sweeping"
+      backRoute="/get-merchant-account-main"
     />
   );
 };

@@ -5,9 +5,9 @@ import React from "react";
 const GetMerchantAccount401UnauthenticatedResponseBodyPage = () => {
   return (
     <CommonPage
-      pageTitle={`401_ unauthenticated _ Response Body`}
+      pageTitle={`Get merchant account 401 _ Unauthenticated _ Response Body `}
       src={GetMerchantAccount401UnauthenticatedResponseBodyImage}
-      backRoute="/merchant-setup-or-update-sweeping"
+      backRoute="/get-merchant-account-main"
     />
   );
 };

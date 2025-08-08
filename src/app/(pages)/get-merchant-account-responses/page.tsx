@@ -5,9 +5,9 @@ import React from "react";
 const GetMerchantAccountResponsesPage = () => {
   return (
     <CommonPage
-      pageTitle={`Responses`}
+      pageTitle={` Get merchant account Responses `}
       src={GetMerchantAccountResponsesImage}
-      backRoute="/merchant-setup-or-update-sweeping"
+      backRoute="/get-merchant-account-main"
     />
   );
 };
