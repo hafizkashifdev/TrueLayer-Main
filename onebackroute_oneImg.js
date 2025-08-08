@@ -6,8 +6,28 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "constraints Get mandate constraints", backRoute: "/mandates-get-mandate-constraints" },
-  { name: "constraints Responses", backRoute: "/mandates-get-mandate-constraints" },
+  { name: "transactions Get transactions-1", backRoute: "/get-transactions" },
+  { name: "transactions   Responses-2 "  , backRoute: "/get-transactions" },
+  { name: "transactions   200 _ Transaction _ Response Body-3 "  , backRoute: "/get-transactions" },
+  { name: "transactions  MERCHANT ACCOUNT PAYMENT-4  "  , backRoute: "/get-transactions" },
+  { name: "transactions SETTLED PAYMENT SOURCE OBJECT-5  "  , backRoute: "/get-transactions" },
+  { name: "transactions  EXTERNAL PAYMENT-6  "  , backRoute: "/get-transactions" },
+  { name: "transactions  REMITTER OBJECT-7  "  , backRoute: "/get-transactions" },
+  { name: "transactions  return_for object-8  "  , backRoute: "/get-transactions" },
+  { name: "transactions PENDING PAYOUT-9  "  , backRoute: "/get-transactions" },
+  { name: "transactions  External Account-10  "  , backRoute: "/get-transactions" },
+  { name: "transactions   PAYMENT SOURCE-11 "  , backRoute: "/get-transactions" },
+  { name: "transactions BUSINESS ACCOUNT-12   "  , backRoute: "/get-transactions" },
+  { name: "transactions   EXECUTED PAYOUT-13 "  , backRoute: "/get-transactions" },
+  { name: "transactions External Account-14  "  , backRoute: "/get-transactions" },
+  { name: "transactions   PAYMENT SOURCE-15 "  , backRoute: "/get-transactions" },
+  { name: "transactions  BUSINESS ACCOUNT -16 "  , backRoute: "/get-transactions" },
+  { name: "transactions Refund-17   "  , backRoute: "/get-transactions" },
+  { name: "transactions  PAYMENT SOURCE OBJECT-18  "  , backRoute: "/get-transactions" },
+  { name: "transactions 401 _ Unauthenticated _ Response Body-19   "  , backRoute: "/get-transactions" },
+  { name: "transactions  403 _ Forbidden _ Response Body-20  "  , backRoute: "/get-transactions" },
+  { name: "transactions  404 _ Account Not Found _ Response Body-21  "  , backRoute: "/get-transactions" },
+  { name: "transactions  500 _ Unknown Error _ Response Body-22  "  , backRoute: "/get-transactions" },
 ];
 
 const toPascalCase = (str) =>

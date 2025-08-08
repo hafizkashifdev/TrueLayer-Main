@@ -995,3 +995,30 @@ export { default as PaymentsRefundWebhooksPayloadExecutedImage } from "./Payment
 export { default as PaymentsRefundWebhooksPayloadFailedImage } from "./PaymentsRefundWebhooksPayloadFailedImage.svg";
 export { default as PaymentsRefundWebhooksPayloadHeadersImage } from "./PaymentsRefundWebhooksPayloadHeadersImage.svg";
 export { default as PaymentsRefundWebhooksPayloadResponsesImage } from "./PaymentsRefundWebhooksPayloadResponsesImage.svg";
+
+
+
+export { default as TransactionsGetTransactions1Image } from "./TransactionsGetTransactions1Image.svg";
+export { default as TransactionsResponses2Image } from "./TransactionsResponses2Image.svg";
+export { default as Transactions200TransactionResponseBody3Image } from "./Transactions200TransactionResponseBody3Image.svg";
+export { default as TransactionsMerchantAccountPayment4Image } from "./TransactionsMerchantAccountPayment4Image.svg";
+export { default as TransactionsSettledPaymentSourceObject5Image } from "./TransactionsSettledPaymentSourceObject5Image.svg";
+export { default as TransactionsExternalPayment6Image } from "./TransactionsExternalPayment6Image.svg";
+export { default as TransactionsRemitterObject7Image } from "./TransactionsRemitterObject7Image.svg";
+export { default as TransactionsReturnForObject8Image } from "./TransactionsReturnForObject8Image.svg";
+export { default as TransactionsPendingPayout9Image } from "./TransactionsPendingPayout9Image.svg";
+export { default as TransactionsExternalAccount10Image } from "./TransactionsExternalAccount10Image.svg";
+export { default as TransactionsPaymentSource11Image } from "./TransactionsPaymentSource11Image.svg";
+export { default as TransactionsBusinessAccount12Image } from "./TransactionsBusinessAccount12Image.svg";
+export { default as TransactionsExecutedPayout13Image } from "./TransactionsExecutedPayout13Image.svg";
+export { default as TransactionsExternalAccount14Image } from "./TransactionsExternalAccount14Image.svg";
+export { default as TransactionsPaymentSource15Image } from "./TransactionsPaymentSource15Image.svg";
+export { default as TransactionsBusinessAccount16Image } from "./TransactionsBusinessAccount16Image.svg";
+export { default as TransactionsRefund17Image } from "./TransactionsRefund17Image.svg";
+export { default as TransactionsPaymentSourceObject18Image } from "./TransactionsPaymentSourceObject18Image.svg";
+export { default as Transactions401UnauthenticatedResponseBody19Image } from "./Transactions401UnauthenticatedResponseBody19Image.svg";
+export { default as Transactions403ForbiddenResponseBody20Image } from "./Transactions403ForbiddenResponseBody20Image.svg";
+export { default as Transactions404AccountNotFoundResponseBody21Image } from "./Transactions404AccountNotFoundResponseBody21Image.svg";
+export { default as Transactions500UnknownErrorResponseBody22Image } from "./Transactions500UnknownErrorResponseBody22Image.svg";
+
+export { default as GetTransactionsImage } from "./GetTransactionsImage.svg";
