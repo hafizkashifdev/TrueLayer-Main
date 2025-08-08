@@ -12,7 +12,7 @@ const AccountTransactionsImageMap = () => {
         {
             alt: "accounts-get-account-transactions",
             title: "accounts-get-account-transactions",
-            href: "/accounts-get-account-transactions",
+            href: "/accounts-get-account-transactions-component",
             coords: "17,12,489,76",
             shape: "rect"
         },
@@ -292,7 +292,7 @@ const AccountTransactionsImageMap = () => {
     ];
     const router = useRouter()
     const handleAreaClick = (href: any) => {
-        window.open(href, '_parent');
+        router.push(href);
     };
 
     const parseCoords = (coords: any) => {
@@ -313,7 +313,7 @@ const AccountTransactionsImageMap = () => {
                     alt='back'
                     width={40}
                     height={40}
-                    onClick={() => { router.back() }}
+                    onClick={() => { router.push('/true-layer-accounts') }}
                     style={{ cursor: "pointer" }}
                 />
                 <Typography
