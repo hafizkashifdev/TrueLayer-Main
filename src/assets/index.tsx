@@ -1033,3 +1033,27 @@ export { default as PaymentsRefundWebhooksPayloadExecutedImage } from "./Payment
 export { default as PaymentsRefundWebhooksPayloadFailedImage } from "./PaymentsRefundWebhooksPayloadFailedImage.svg";
 export { default as PaymentsRefundWebhooksPayloadHeadersImage } from "./PaymentsRefundWebhooksPayloadHeadersImage.svg";
 export { default as PaymentsRefundWebhooksPayloadResponsesImage } from "./PaymentsRefundWebhooksPayloadResponsesImage.svg";
+
+export { default as SetUpOrUpdateSweeping1Image } from "./SetUpOrUpdateSweeping1Image.svg";
+export { default as GetMerchantAccountResponsesImage } from "./GetMerchantAccountResponsesImage.svg";
+export { default as GetMerchantAccount400InvalidParameterResponseBodyImage } from "./GetMerchantAccount400InvalidParameterResponseBodyImage.svg";
+export { default as GetMerchantAccount401UnauthenticatedResponseBodyImage } from "./GetMerchantAccount401UnauthenticatedResponseBodyImage.svg";
+export { default as GetMerchantAccount403ForbiddenResponseBodyImage } from "./GetMerchantAccount403ForbiddenResponseBodyImage.svg";
+export { default as GetMerchantAccount404AccountNotFoundResponseBodyImage } from "./GetMerchantAccount404AccountNotFoundResponseBodyImage.svg";
+export { default as GetMerchantAccount500UnknownErrorResponseBodyImage } from "./GetMerchantAccount500UnknownErrorResponseBodyImage.svg";
+export { default as MerchantSetUpOrUpdateSweepingImage } from "./Merchant Set up or update sweeping.svg";
+export { default as DisableSweeping1Image } from "./DisableSweeping1Image.svg";
+export { default as DisableSweepingResponsesImage } from "./DisableSweepingResponsesImage.svg";
+export { default as DisableSweeping401UnauthenticatedResponseBodyImage } from "./DisableSweeping401UnauthenticatedResponseBodyImage.svg";
+export { default as DisableSweeping403ForbiddenResponseBodyImage } from "./DisableSweeping403ForbiddenResponseBodyImage.svg";
+export { default as DisableSweeping404AccountNotFoundResponseBodyImage } from "./DisableSweeping404AccountNotFoundResponseBodyImage.svg";
+export { default as DisableSweeping500UnknownErrorResponseBodyImage } from "./DisableSweeping500UnknownErrorResponseBodyImage.svg";
+export { default as DisableSweepingImage } from "./Disable sweeping.svg";
+export { default as GetSweepingSettings1Image } from "./GetSweepingSettings1Image.svg";
+export { default as GetSweepingSettingsResponsesImage } from "./GetSweepingSettingsResponsesImage.svg";
+export { default as GetSweepingSettingsAutomaticSweepingSettingsResponseBodyImage } from "./GetSweepingSettingsAutomaticSweepingSettingsResponseBodyImage.svg";
+export { default as GetSweepingSettings401UnauthenticatedResponseBodyImage } from "./GetSweepingSettings401UnauthenticatedResponseBodyImage.svg";
+export { default as GetSweepingSettings403ForbiddenResponseBodyImage } from "./GetSweepingSettings403ForbiddenResponseBodyImage.svg";
+export { default as GetSweepingSettings404AccountNotFoundResponseBodyImage } from "./GetSweepingSettings404AccountNotFoundResponseBodyImage.svg";
+export { default as GetSweepingSettings500UnknownErrorResponseBodyImage } from "./GetSweepingSettings500UnknownErrorResponseBodyImage.svg";
+export { default as MerchantGetSweepingSettingsImage } from "./Merchant Get sweeping settings.svg";
