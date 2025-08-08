@@ -1126,5 +1126,4 @@ export { default as Transactions401UnauthenticatedResponseBody19Image } from "./
 export { default as Transactions403ForbiddenResponseBody20Image } from "./Transactions403ForbiddenResponseBody20Image.svg";
 export { default as Transactions404AccountNotFoundResponseBody21Image } from "./Transactions404AccountNotFoundResponseBody21Image.svg";
 export { default as Transactions500UnknownErrorResponseBody22Image } from "./Transactions500UnknownErrorResponseBody22Image.svg";
-
 export { default as GetTransactionsImage } from "./GetTransactionsImage.svg";
