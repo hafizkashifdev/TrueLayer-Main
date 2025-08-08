@@ -806,7 +806,6 @@ export { default as AccessTokenBodyParamsClientCredentialsGrantRequestImage } fr
 export { default as LegacyPaydirectApiWithdrawalImage } from "./LegacyPaydirectApiWithdrawalImage.svg";
 export { default as AuthenticationServerAccessTokenImage } from "./AuthenticationServerAccessTokenImage.svg";
 export { default as IntroductionImage } from "./IntroductionImage.svg";
-export { default as DebugIdImage } from "./DebugIdImage.svg";
 export { default as LegacyPaydirectApiDepositImage } from "./LegacyPaydirectApiDepositImage.svg";
 export { default as LegacyPaydirectApiUserImage } from "./LegacyPaydirectApiUserImage.svg";
 export { default as LegacyPaydirectApiBalancesImage } from "./LegacyPaydirectApiBalancesImage.svg";
@@ -1375,6 +1374,7 @@ export { default as PaymentsGetPaymentsRefundResponses401UnauthenticatedImage } 
 export { default as PaymentsGetPaymentsRefundResponses403ForbiddenImage } from "./PaymentsGetPaymentsRefundResponses403ForbiddenImage.svg";
 export { default as PaymentsGetPaymentsRefundResponses404RefundNotFoundImage } from "./PaymentsGetPaymentsRefundResponses404RefundNotFoundImage.svg";
 export { default as PaymentsGetPaymentsRefundResponses500UnknownErrorImage } from "./PaymentsGetPaymentsRefundResponses500UnknownErrorImage.svg";
+export { default as DebugIdImage } from "./DebugIdImage.svg";
 export { default as MerchantAccountWebhooksImage } from "./MerchantAccountWebhooksImage.svg";
 export { default as MerchantAccountWebhooks1Image } from "./MerchantAccountWebhooks1Image.svg";
 export { default as MerchantAccountWebhooksExternalPaymentImage } from "./MerchantAccountWebhooksExternalPaymentImage.svg";
