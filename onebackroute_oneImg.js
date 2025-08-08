@@ -6,9 +6,19 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "constraints Get mandate constraints", backRoute: "/mandates-get-mandate-constraints" },
-  { name: "constraints Responses", backRoute: "/mandates-get-mandate-constraints" },
-];
+  { name: "Start authorization flow_ Path  Params", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Body  Params", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Headers", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_Responses", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses_200 Payment", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses_400 Invalid Request", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses_401 Unauthenticated", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses_403 Forbidden", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses 404 Payment Not Found", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses 409  Conflict", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses_422 Idempotency-Key Reuse", backRoute: "/payments-start-authorization-flow" },
+  { name: "Start authorization flow_ Responses_500  Unknown Error", backRoute: "/payments-start-authorization-flow" },
+]
 
 const toPascalCase = (str) =>
   str

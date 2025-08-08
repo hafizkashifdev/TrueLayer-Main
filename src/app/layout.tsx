@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import { FRONTEND_SALE_SITE_BASE_URL } from "@/Config";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -9,9 +8,8 @@ const outfit = Outfit({
   variable: "--font-outfit",
 });
 export const metadata: Metadata = {
-  title: "Meta Title",
-  description:
-    "Meta Description",
+  title: "TrueLayer - Europe's leading open banking platform",
+  description: "We power faster and safer online payments with our open banking payments network. Onboard users, accept payments & make payouts in seconds.",
   icons: {
     icon: [
       { rel: "icon", url: "/favicon.ico", type: "image/x-icon" },
@@ -36,18 +34,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Meta Title",
-    description:
-      "Meta Description",
-    url: `${FRONTEND_SALE_SITE_BASE_URL}`,
+    title: "TrueLayer - Europe's leading open banking platform",
+    description: "We power faster and safer online payments with our open banking payments network. Onboard users, accept payments & make payouts in seconds.",
+    url: `https://truelayer.apiswagger.co.uk`,
     type: "website",
     images: [
       {
-        url: `${FRONTEND_SALE_SITE_BASE_URL}/og.png`,
+        url: `https://truelayer.apiswagger.co.uk/og.png`,
         type: "image/png",
         width: 1200,
         height: 630,
-        alt: "Railsr",
+        alt: "TrueLayer",
       },
     ],
   },

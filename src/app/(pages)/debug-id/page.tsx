@@ -17,7 +17,7 @@ const DebugIdPage = () => {
     <CommonImgMapPage
       pageTitle={`Debug ID`}
       image={DebugIdImage}
-      backRoute="/truelayer-authentication-server"
+      backRoute="/true-layer-authentication-server"
       areas={areas}
     />
   );
