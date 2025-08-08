@@ -9,33 +9,21 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const pages = [
  
   {
-    title: "Get payment sources 1",
-    ButtonRoute: "/get-payment-sources",
+    title: "Merchant account webhooks 1",
+    ButtonRoute: "/merchant-account-webhooks",
   },
   {
-    title: "Get payment sources Responses",
-    ButtonRoute: "/get-payment-sources",
+    title: "Merchant account webhooks External Payment",
+    ButtonRoute: "/merchant-account-webhooks",
   },
   {
-    title: "User external account payment 200_ sources _ Response Body",
-    ButtonRoute: "/get-payment-sources",
+    title: "Merchant account webhooks Balance Notification",
+    ButtonRoute: "/merchant-account-webhooks",
   },
   {
-    title: "Get payment sources 401_ unauthenticated _ Response Body",
-    ButtonRoute: "/get-payment-sources",
-  },
-  {
-    title: "Get payment sources 403 _ Forbidden _ Response Body",
-    ButtonRoute: "/get-payment-sources",
-  },
-  {
-    title: "Get payment sources 404 _ Account Not Found _ Response Body",
-    ButtonRoute: "/get-payment-sources",
-  },
-  {
-    title: "Get payment sources 500_Unknown Error _ Response Body",
-    ButtonRoute: "/get-payment-sources",
-  },
+    title: "Merchant account webhooks 1",
+    ButtonRoute: "/merchant-account-webhooks",
+  }
   
  
 ];
