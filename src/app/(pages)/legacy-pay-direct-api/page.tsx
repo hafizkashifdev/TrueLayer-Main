@@ -9,11 +9,11 @@ import {
 } from "@/assets";
 
 const cardsData = [
-  { key: '1', title: 'withdrawal', href: '/legacy-pay-direct-api-withdrawal', icon: LegacyPayDirectApiImage1 },
-  { key: '2', title: 'Deposit', href: '/legacy-pay-direct-api-deposit', icon: LegacyPayDirectApiImage2 },
-  { key: '3', title: 'User', href: '/legacy-pay-direct-api-user', icon: LegacyPayDirectApiImage3 },
-  { key: '4', title: 'Balance', href: '/legacy-pay-direct-api-balances', icon: LegacyPayDirectApiImage4 },
-  { key: '5', title: 'Transactions', href: '/legacy-pay-direct-api-transactions', icon: LegacyPayDirectApiImage5 },
+  { key: '1', title: 'withdrawal', href: '/legacy-paydirect-api-withdrawal', icon: LegacyPayDirectApiImage1 },
+  { key: '2', title: 'Deposit', href: '/legacy-paydirect-api-deposit', icon: LegacyPayDirectApiImage2 },
+  { key: '3', title: 'User', href: '/legacy-paydirect-api-user', icon: LegacyPayDirectApiImage3 },
+  { key: '4', title: 'Balance', href: '/legacy-paydirect-api-balances', icon: LegacyPayDirectApiImage4 },
+  { key: '5', title: 'Transactions', href: '/legacy-paydirect-api-transactions', icon: LegacyPayDirectApiImage5 },
 ]
 
 export default function LegacyPayDirectApiPage() {
