@@ -192,7 +192,7 @@ const LegacyPaydirectApiWithdrawalPage = () => {
     <CommonImgMapPage
       pageTitle={`Legacy - PayDirect API  Withdrawal`}
       image={LegacyPaydirectApiWithdrawalImage}
-      backRoute="/truelayer-signup"
+      backRoute="/legacy-pay-direct-api"
       areas={areas}
     />
   );

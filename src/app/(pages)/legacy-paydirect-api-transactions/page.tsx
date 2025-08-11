@@ -3,7 +3,7 @@ import CommonImgMapPage from "@/components/common-img-map-page";
 import React from "react";
 
 const areas = [
-   {
+  {
     alt: "Legacy Paydirect Api Transactions Query Params",
     title: "Legacy Paydirect Api Transactions Query Params",
     href: "/legacy-paydirect-api-transactions-query-params",
@@ -108,7 +108,7 @@ const LegacyPaydirectApiTransactionsPage = () => {
     <CommonImgMapPage
       pageTitle={`Legacy - PayDirect API Transactions`}
       image={LegacyPaydirectApiTransactionsImage}
-      backRoute="/truelayer-signup"
+      backRoute="/legacy-pay-direct-api"
       areas={areas}
     />
   );

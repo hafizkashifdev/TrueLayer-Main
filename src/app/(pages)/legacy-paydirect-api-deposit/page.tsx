@@ -30,7 +30,7 @@ const LegacyPaydirectApiDepositPage = () => {
     <CommonImgMapPage
       pageTitle={`Legacy - PayDirect API  Deposit`}
       image={LegacyPaydirectApiDepositImage}
-      backRoute="/truelayer-signup"
+      backRoute="/legacy-pay-direct-api"
       areas={areas}
     />
   );
