@@ -8,7 +8,7 @@ const outfit = Outfit({
   variable: "--font-outfit",
 });
 export const metadata: Metadata = {
-  title: "TrueLayer - Europe's leading open banking platform",
+  title: "TrueLayer Docs",
   description: "We power faster and safer online payments with our open banking payments network. Onboard users, accept payments & make payouts in seconds.",
   icons: {
     icon: [
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "TrueLayer - Europe's leading open banking platform",
+    title: "TrueLaye Docs",
     description: "We power faster and safer online payments with our open banking payments network. Onboard users, accept payments & make payouts in seconds.",
-    url: `https://truelayer.apiswagger.co.uk`,
+    url: `https://truelayerdocs.netlify.app`,
     type: "website",
     images: [
       {
-        url: `https://truelayer.apiswagger.co.uk/og.png`,
+        url: `https://truelayerdocs.netlify.app/og.png`,
         type: "image/png",
         width: 1200,
         height: 630,
